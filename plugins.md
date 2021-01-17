@@ -32,7 +32,8 @@ You can open config file using one of Plugins commands. Details:
 Author: Alexey Torgashin (CudaText)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Auto Center Line  
@@ -52,7 +53,8 @@ plugin is passive when multi-carets are placed.
 author: Alexey (CudaText)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Auto-Copy to Clipboard  
@@ -84,7 +86,8 @@ plugin has config file, to call it, use menu item in "Options / Settings-plugins
 author: Alexey (CudaText)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Auto Replace  
@@ -112,7 +115,8 @@ authors:
   Khomutov Roman (iRamSoft on Github)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Auto Save  
@@ -138,7 +142,8 @@ options:
 author: Alexey Torgashin (CudaText)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: AutoIt Helper  
@@ -167,7 +172,8 @@ Plugin needs to know path to AutoIt installation, so you must call menu item in 
 Authors: OlehL, Tom Braider.
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Backup File  
@@ -188,7 +194,8 @@ Has macros for number counter, for upper/lower case.
 Author: Andrey Kvichanskiy (kvichans, at forum/github)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Calc Expression  
@@ -238,7 +245,8 @@ digits_precision is number of digits after decimal separator, can be 0 to show a
 author: Alexey Torgashin (CudaText)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Caret History  
@@ -255,7 +263,8 @@ Author of idea:
 Author: 
 	Andrey Kvichanskiy (kvichans, at forum)
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Case Converter  
@@ -273,7 +282,8 @@ ThePascalCase
 Author: Alexey Torgashin
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Color Picker  
@@ -296,7 +306,8 @@ this list is saved to settings/plugins.ini (up to 30 items).
 author: Alexey Torgashin (CudaText)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Color Text  
@@ -326,7 +337,8 @@ Authors:
   Khomutov Roman
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Colored Indent  
@@ -356,7 +368,8 @@ author: Alexey Torgashin (CudaText)
 enhancements: Andreas Heim (dinkumoil)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Column Marks  
@@ -380,7 +393,8 @@ plugin reads all these margins, and gives commands:
 author: Alexey (CudaText)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Complete From Text  
@@ -414,7 +428,8 @@ if option is configured so.
 Author: Alexey Torgashin (CudaText)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Config Toolbar  
@@ -440,7 +455,8 @@ Notes:
 Author: Alexey Torgashin (CudaText)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Configure Hotkeys  
@@ -451,7 +467,8 @@ Description: Shows dialog to view/set hotkeys in editor
 Manager for setting, removing, reporting of hotkeys
 
 Author: Andrey Kvichanskiy (kvichans, at forum/github)  
-```</details>----------
+```  
+</details>----------
    
    
 Name: Config Menu  
@@ -566,7 +583,8 @@ Notes
         names from py\cudatext_cmd.py (starting with cmd_ or cCommand_),
         strings "module,method" for any plugin module and method in it.
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Configure PyCodeStyle linter  
@@ -582,7 +600,8 @@ It is helper for "Linter for Python using PEP8". It configurates PEP8 with dialo
 
 Author: Andrey Kvichanskiy (kvichans, at forum/github)
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: CSS CanIUse  
@@ -596,7 +615,8 @@ it opens http://caniuse.com with info about selected text (or current word if no
 Author: Alexey T. (CudaText)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: CSS Inspector  
@@ -624,7 +644,8 @@ Authors:
   Alexey Torgashin (CudaText)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: CSS Property Info  
@@ -651,7 +672,8 @@ option "status_alt": if "1", then result will be shown in the alternative (yello
 author: Medvosa, https://github.com/medvosa
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: CSS Table of Contents  
@@ -678,7 +700,8 @@ option "status_alt": if "1", then result will be shown in the alternative (yello
 author: Medvosa, https://github.com/medvosa
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: CSV Helper  
@@ -707,7 +730,8 @@ Authors:
   Oleh Lutsak https://github.com/OlehL
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: CSV Helper  
@@ -865,7 +889,8 @@ Menu items
 Author: Andrey Kvichanskiy (kvichans, at forum/github)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: CSV Helper  
@@ -1023,7 +1048,8 @@ Menu items
 Author: Andrey Kvichanskiy (kvichans, at forum/github)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: CudaFormatter  
@@ -1056,7 +1082,8 @@ To see how to write formatters, install "Formatters for JavaScript" which has mo
 Author: Alexey Torgashin (CudaText)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Kvichans lib to use in any plugins  
@@ -1182,7 +1209,8 @@ Saves current file.
 Clears console output.
 Runs the file.
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Kvichans lib to use in any plugins  
@@ -1308,7 +1336,8 @@ Saves current file.
 Clears console output.
 Runs the file.
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Kvichans lib with wrapper over dlg_proc and more dialog tools  
@@ -1322,7 +1351,8 @@ License: MIT
 
 See github.com/kvichans/cuda_kv_dlg/wiki
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Kvichans lib with wrapper over dlg_proc and more dialog tools  
@@ -1336,7 +1366,8 @@ License: MIT
 
 See github.com/kvichans/cuda_kv_dlg/wiki
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: CudaLint  
@@ -1392,7 +1423,8 @@ Authors:
 CudaLint uses code portions from the SublimeLinter 3 project.
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Dash Help  
@@ -1417,7 +1449,8 @@ author: Alexey (CudaText)
 license: MIT
 used some code from Sublime Text plugin DashDoc.
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Detect Indent  
@@ -1433,7 +1466,8 @@ It is open source at https://github.com/randy3k/sublime-default
 
 Adapted to CudaText by Alexey T.
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: DevDocs  
@@ -1454,7 +1488,8 @@ Examples:
 
 Author: Alexey T.
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Differ  
@@ -1476,7 +1511,8 @@ Authors:
   Andrey Kvichanskiy (kvichans on GitHub)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: DocBlock  
@@ -1499,7 +1535,8 @@ It helps to enter docblock comments for lexers: PHP, JavaScript, CoffeeScript.
 Author: Alexey (CudaText)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Draw Lines  
@@ -1530,7 +1567,8 @@ usual work.
 author: Alexey (CudaText)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: EditorConfig Support  
@@ -1555,7 +1593,8 @@ beginning with CudaText 1.77.6:
 author: Alexey Torgashin (CudaText)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Edits Navigation  
@@ -1580,7 +1619,8 @@ Authors:
 
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Emmet Lite  
@@ -1610,7 +1650,8 @@ Emmet syntax detected automatically:
 Author: Alexey (CudaText)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Encode  
@@ -1659,7 +1700,8 @@ Codings:
 Author: Alexey T (CudaText)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Explorer Integration  
@@ -1672,7 +1714,8 @@ You can add/remove Explorer context menu item for CudaText. And associate Cuda w
 Author: Alexey T.
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Extended Selection  
@@ -1719,7 +1762,8 @@ Commands in "Plugins / Extended Selection" menu:
 Author: Shovel (CudaText forum user)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: ExtTools  
@@ -1747,7 +1791,8 @@ Details:
 Author: A.Kvichanskiy (kvichans at forum/github)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Extract Strings  
@@ -1765,7 +1810,8 @@ Includes plugin "Filter Lines". Command to find (in current editor tab) all line
 Author: Alexey (CudaText)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Favorites  
@@ -1790,7 +1836,8 @@ Plugin can import favorites from SynWrite. To do it, browse for file "SynFav.ini
 Author: Andrey Kvichanskiy (kvichans, at forum/GitHub)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: File Type Profile  
@@ -1871,7 +1918,8 @@ here: http://wiki.freepascal.org/CudaText#Line_ends
 Author: Andreas Heim (dinkumoil, at github & sourceforge)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: file URI handler  
@@ -1899,7 +1947,8 @@ Authors:
 
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Find in Files  
@@ -1925,7 +1974,8 @@ Notes:
 
 Author: A.Kvichanskiy (kvichans at forum/github)
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Find in Files 4  
@@ -1951,7 +2001,8 @@ Notes:
 
 Author: A.Kvichanskiy (kvichans at forum/github)
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Find in Files 4  
@@ -1977,7 +2028,8 @@ Notes:
 
 Author: A.Kvichanskiy (kvichans at forum/github)
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Focus Mode  
@@ -1999,7 +2051,8 @@ to configure which file extensions are handled, call menu item "Options / Settin
 author: Alexey T (CudaText)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Font Awesome  
@@ -2034,7 +2087,8 @@ Uses the free version from https://fontawesome.com
 Author: Tom Braider
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Fonts  
@@ -2056,7 +2110,8 @@ example usage:
 author: Alexey (CudaText)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: FontStorage  
@@ -2074,7 +2129,8 @@ b) insert CSS lines (at caret position), which correctly refer to downloaded fil
 author: Alexey (CudaText)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Fountain Helper  
@@ -2110,7 +2166,8 @@ it uses parser from: https://github.com/nathanhoad/fountain-js
 author: Alexey Torgashin (CudaText)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: FTP  
@@ -2155,7 +2212,8 @@ Authors: @pohmelie, Alexey T.
 License: MIT
 Homepage: https://github.com/pohmelie/cuda_ftp
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Git Status  
@@ -2177,7 +2235,8 @@ author: Alexey (CudaText)
 license: MIT
 icon from GitHub, license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Hash Generator  
@@ -2206,7 +2265,8 @@ Currently supported hashes:
 Author: Alexey (CudaText)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Hex Dump  
@@ -2225,7 +2285,8 @@ Used hexdump.py by anatoly techtonik, Public Domain.
 Author: Alexey (CudaText)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Highlight Occurrences  
@@ -2283,7 +2344,8 @@ Authors:
 
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Highlight Variables  
@@ -2310,7 +2372,8 @@ items:
 author: Alexey Torgashin (CudaText)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: HTML Completion  
@@ -2348,7 +2411,8 @@ Authors:
   Artem Gavrilov (@Artem3213212)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: HTML Live Preview  
@@ -2410,7 +2474,8 @@ Authors:
   Alexey Torgashin (CudaText)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: HTML Ops  
@@ -2517,7 +2582,8 @@ Gives commands for HTML/CSS work (lexer name can be any).
 Author: Alexey T. (CudaText)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: HTML Tidy  
@@ -2542,7 +2608,8 @@ Help links:
 Author: Alexey (CudaText)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: HTML Tooltips  
@@ -2582,7 +2649,8 @@ https://www.rapidtables.com/convert/color/rgb-to-hsl.html
 Author: Alexey (CudaText)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Insert Emoji  
@@ -2603,7 +2671,8 @@ https://www.webpagefx.com/tools/emoji-cheat-sheet/
 author: Alexey T (CudaText)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Insert Pics  
@@ -2636,7 +2705,8 @@ They're deleted only if you delete their lines, or use plugin's commands to dele
 Author: Alexey Torgashin (CudaText)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: In-text bookmarks  
@@ -2648,7 +2718,8 @@ Allows to manage bookmarks which are text-comments of special kind.
 Can add, show list, jump to bookmarks.
 
 Author: Andrey Kvichanskiy (kvichans, at forum/github)  
-```</details>----------
+```  
+</details>----------
    
    
 Name: In-text complete  
@@ -2659,7 +2730,8 @@ Description: Suggests completions for syntax expressions, using fragments from t
 Allows to complete expression (word, calling, ...) by variants found in the whole text.
 
 Author: Andrey Kvichanskiy (kvichans, at forum/github)  
-```</details>----------
+```  
+</details>----------
    
    
 Name: IP Address Helper  
@@ -2674,7 +2746,8 @@ supports IPv4 and IPv6 addresses.
 author: Medvosa (at GitHub)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: JS Multiline Array  
@@ -2696,7 +2769,8 @@ Converter code (few lines) from https://github.com/metatribal/sublime-jsmultilin
 License for this plugin: Apache 2.0 or MIT
 Author: Alexey T. (CudaText)
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: JS Tern  
@@ -2729,7 +2803,8 @@ Authors:
     
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Lorem Ipsum  
@@ -2745,7 +2820,8 @@ Multi-carets are supported, text will be inserted at multi-carets.
 Author: Alexey (CudaText)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Macros  
@@ -2759,7 +2835,8 @@ Config and data file:
 	settings\macros.json
 
 Author: Andrey Kvichanskiy (kvichans, at forum/github)  
-```</details>----------
+```  
+</details>----------
    
    
 Name: Markdown Editing  
@@ -2815,7 +2892,8 @@ Authors:
   Alexey (CudaText)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Markdown Preview  
@@ -2833,7 +2911,8 @@ https://pythonhosted.org/Markdown/extensions/#officially-supported-extensions
 Author: Alexey T.
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Micro Utils  
@@ -2872,7 +2951,8 @@ Sorts all lines in the current editor. First go short lines, then longer. Same l
 author: Alexey (CudaText)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: NTFS Streams  
@@ -2892,7 +2972,8 @@ dialog works with streams of currently active file:
 author: Alexey T (CudaText)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Number Utils  
@@ -2980,7 +3061,8 @@ authors:
   Jairo Martinez Antonio https://github.com/Jairo-Martinez
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Numbered Bookmarks  
@@ -2997,7 +3079,8 @@ Numbered bookmarks behave like usual bookmarks, but they have special icon (with
 License: MIT
 Author: Alexey (CudaText)
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Online Search  
@@ -3020,7 +3103,8 @@ commands open web-browser with search results.
 author: Alexey (CudaText)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Open URL  
@@ -3052,7 +3136,8 @@ Option "action_on_click": number:
 Author: Alexey (CudaText)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Options Report  
@@ -3064,7 +3149,8 @@ Shows detailed report about options, as HTML file, in browser.
 
 Author: Andrey Kvichanskiy (kvichans, at forum)
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Pandoc Helper  
@@ -3091,7 +3177,8 @@ Pandoc program name:
 Author: Alexey T. (CudaText)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Password Generator  
@@ -3103,7 +3190,8 @@ Generating a random password of a certain length from certain characters
 
 Aauthor: ildar r. khasanshin (10021987.ru)
 License: MIT  
-```</details>----------
+```  
+</details>----------
    
    
 Name: Paste as String  
@@ -3115,7 +3203,8 @@ Generating a random password of a certain length from certain characters
 
 Aauthor: ildar r. khasanshin (10021987.ru)
 License: MIT  
-```</details>----------
+```  
+</details>----------
    
    
 Name: Plain Tasks  
@@ -3205,7 +3294,8 @@ About
     Author: OlehL, https://github.com/OlehL
     License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Python IntelliSense  
@@ -3265,7 +3355,8 @@ Authors:
   Oleh Lutsak https://github.com/OlehL/
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: pywin32 libraries  
@@ -3280,7 +3371,8 @@ Additional python wrapper is taken from Sublime Text addon "TextToSpeech".
 Author: Alexey (CudaText)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Remove Greek Accents  
@@ -3303,7 +3395,8 @@ CudaText plugin gives one command. it handles the selection, or entire text if n
 author: Alexey (CudaText)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: reStructuredText Preview  
@@ -3317,7 +3410,8 @@ converts active editor tab (with lexer reST) into HTML document, opens HTML in w
 author: Alexey (CudaText)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Session Manager  
@@ -3341,7 +3435,8 @@ Plugin commands:
 Author: Andrey Kvichanskiy https://github.com/kvichans/
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: SFTP support for FTP plugin, Windows x32/x64, Python 3.5  
@@ -3364,7 +3459,8 @@ Plugin commands:
 Author: Andrey Kvichanskiy https://github.com/kvichans/
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: SFTP support for FTP plugin, Windows x32/x64, Python 3.6  
@@ -3387,7 +3483,8 @@ Plugin commands:
 Author: Andrey Kvichanskiy https://github.com/kvichans/
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: SFTP support for FTP plugin, Windows x32/x64, Python 3.7  
@@ -3410,7 +3507,8 @@ Plugin commands:
 Author: Andrey Kvichanskiy https://github.com/kvichans/
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Show Unicode Name  
@@ -3425,7 +3523,8 @@ seems it doesn't slow down editor (on 2010 year average PC).
 author: Alexey (CudaText)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Snippets  
@@ -3473,7 +3572,8 @@ Authors:
   Oleh Lutsak (https://github.com/OlehL)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: SnipToCall  
@@ -3490,7 +3590,8 @@ Also plugin "Configure Hotkeys" is changed, in it you can also see and change sn
 
 Author: A.Kvichanskiy (kvichans at github.com)
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Spell Checker  
@@ -3577,7 +3678,8 @@ Options:
 Author: Alexey Torgashin (CudaText)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: SPIR Helper  
@@ -3596,7 +3698,8 @@ authors:
   Alexey Torgashin (CudaText)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: SQL Tools  
@@ -3615,7 +3718,8 @@ authors:
   Alexey Torgashin (CudaText)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Sum Lines  
@@ -3657,7 +3761,8 @@ Report will be like:
 Author: Alexey (CudaText)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Switch Header  
@@ -3676,7 +3781,8 @@ Options / Settings-plugins / Switch Header / Config
 author: Alexey (CudaText)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Sync Editing  
@@ -3705,7 +3811,8 @@ with lexer style, beginning with "Id", but not containing "keyword".
 Author: Vladislav Utkin (viad00 at GitHub)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Sync Scroll  
@@ -3726,7 +3833,8 @@ authors:
   Artem Gavrilov (@Artem3213212 at GitHub)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Tab Colors  
@@ -3749,7 +3857,8 @@ Authors:
   Shovel (CudaText forum user)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Tab Icons  
@@ -3770,7 +3879,8 @@ for themes with bigger icon size (e.g. 24x24) you will need to adjust CudaText o
 author: Alexey (CudaText)
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Terminal  
@@ -3797,7 +3907,8 @@ Authors:
 License: MIT
 Credits for icon: GitHub.com, MIT license
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Testing of Code Tree API  
@@ -3824,7 +3935,8 @@ Authors:
 License: MIT
 Credits for icon: GitHub.com, MIT license
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Testing of dialog API  
@@ -3851,7 +3963,8 @@ Authors:
 License: MIT
 Credits for icon: GitHub.com, MIT license
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Testing of gaps API  
@@ -3878,7 +3991,8 @@ Authors:
 License: MIT
 Credits for icon: GitHub.com, MIT license
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Text Statistics  
@@ -3900,7 +4014,8 @@ gets info:
 author: Alexey T.
 license: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Textile Preview  
@@ -3914,7 +4029,8 @@ It converts Textile text to HTML (using Python Textile library), and then opens 
 Author: Alexey T.
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: TextToSpeech  
@@ -3935,7 +4051,8 @@ Ported from Sublime Text plugin "TextToSpeech".
 Author: Alexey Torgashin (CudaText)
 License: MIT
   
-```</details>----------
+```  
+</details>----------
    
    
 Name: Vim Mode  
@@ -4054,4 +4171,5 @@ author: Alexey (CudaText)
 suggestions/testing: @mangobait, @oO0XX0Oo, @acicovic
 license: MIT
   
-```</details>----------
+```  
+</details>----------
