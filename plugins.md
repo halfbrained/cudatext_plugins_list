@@ -1,5 +1,5 @@
-Name: ASCII Art
-Description: Inserts text formatted via ASCII art font (using PyFiglet)
+Name: ASCII Art  
+Description: Inserts text formatted via ASCII art font (using PyFiglet)  
 <details><summary>readme</summary>
 Plugin "ASCII Art" for CudaText.
 It gives command to render any text via ASCII Art font. Many fonts are available. Uses PyFiglet library.
@@ -30,11 +30,11 @@ You can open config file using one of Plugins commands. Details:
 
 Author: Alexey Torgashin (CudaText)
 License: MIT
-</details>
-  
-  
-Name: Auto Center Line
-Description: Plugin keeps current line in the center of the editor window
+</details>----------
+   
+   
+Name: Auto Center Line  
+Description: Plugin keeps current line in the center of the editor window  
 <details><summary>readme</summary>
 plugin for CudaText.
 when active, it changes vertical scroll position, so that line 
@@ -48,11 +48,11 @@ plugin is passive when multi-carets are placed.
 
 author: Alexey (CudaText)
 license: MIT
-</details>
-  
-  
-Name: Auto-Copy to Clipboard
-Description: When text block selected, it's auto copied to clipboard, no need to press Ctrl+C (or call menu item). Don't work with multi-carets. Don't work for huge blocks (>50K).
+</details>----------
+   
+   
+Name: Auto-Copy to Clipboard  
+Description: When text block selected, it's auto copied to clipboard, no need to press Ctrl+C (or call menu item). Don't work with multi-carets. Don't work for huge blocks (>50K).  
 <details><summary>readme</summary>
 plugin for CudaText.
 on making text selection (with mouse, shift+arrows, ctrl+A, etc), copies selected block to clipboard.
@@ -78,11 +78,11 @@ plugin has config file, to call it, use menu item in "Options / Settings-plugins
 
 author: Alexey (CudaText)
 license: MIT
-</details>
-  
-  
-Name: Auto Replace
-Description: Plugin auto-replaces currently typed words, based on set of snippets with such words.
+</details>----------
+   
+   
+Name: Auto Replace  
+Description: Plugin auto-replaces currently typed words, based on set of snippets with such words.  
 <details><summary>readme</summary>
 plugin for CudaText.
 allows to auto-replace keywords/functions, when they are typed in the wrong case (e.g. "writeln" to "WriteLn"). allows usual word replace too. you must create one or several snippet collection(s) in .cuda-dic format: one word per line, comments must begin with # char.
@@ -104,11 +104,11 @@ authors:
   Alexey T. (CudaText)
   Khomutov Roman (iRamSoft on Github)
 license: MIT
-</details>
-  
-  
-Name: Auto Save
-Description: Saves modified files automatically: before file closing (by option, default is off), by timer (default interval 30sec), on application deactivation
+</details>----------
+   
+   
+Name: Auto Save  
+Description: Saves modified files automatically: before file closing (by option, default is off), by timer (default interval 30sec), on application deactivation  
 <details><summary>readme</summary>
 plugin for CudaText.
 automatically saves modified files. currently: only named tabs (ignores untitled tabs).
@@ -128,11 +128,11 @@ options:
 
 author: Alexey Torgashin (CudaText)
 license: MIT
-</details>
-  
-  
-Name: AutoIt Helper
-Description: Autocompletion and function hints for AutoIt Lexer
+</details>----------
+   
+   
+Name: AutoIt Helper  
+Description: Autocompletion and function hints for AutoIt Lexer  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Gives IntelliSense commands for AutoIt lexer.
@@ -155,11 +155,11 @@ Plugin needs to know path to AutoIt installation, so you must call menu item in 
 
 Authors: OlehL, Tom Braider.
 License: MIT
-</details>
-  
-  
-Name: Backup File
-Description: Creates backup copy of current file, a) by command in Plugins, b) auto-creation before file saving
+</details>----------
+   
+   
+Name: Backup File  
+Description: Creates backup copy of current file, a) by command in Plugins, b) auto-creation before file saving  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Creates backup copy of current file: a) by command in Plugins, b) by auto-creation on file saving.
@@ -174,11 +174,11 @@ Has macros for number counter, for upper/lower case.
 
 Author: Andrey Kvichanskiy (kvichans, at forum/github)
 License: MIT
-</details>
-  
-  
-Name: Calc Expression
-Description: Gets selected math expression, e.g. "2.4 * sin(pi/3)", calculates it, replaces selection with result
+</details>----------
+   
+   
+Name: Calc Expression  
+Description: Gets selected math expression, e.g. "2.4 * sin(pi/3)", calculates it, replaces selection with result  
 <details><summary>readme</summary>
 plugin for CudaText.
 reads selected text as math expression, e.g. "2.4*sin(pi/3)" and evaluates it by Python.
@@ -222,11 +222,11 @@ digits_precision is number of digits after decimal separator, can be 0 to show a
 
 author: Alexey Torgashin (CudaText)
 license: MIT
-</details>
-  
-  
-Name: Caret History
-Description: Tracks caret pos changing (only long jumps), and allows to jump backward/forward by that history
+</details>----------
+   
+   
+Name: Caret History  
+Description: Tracks caret pos changing (only long jumps), and allows to jump backward/forward by that history  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Plugin tracks changes of caret position, and when caret jumps long (more than 10 lines, option), it adds history point. So plugin keeps history of long caret jumps. It gives 2 commands: move backward, move forward, they change caret using this history. Short caret movements don't add to history (but they correct current history item). History length is 5 items by default (option).
@@ -237,11 +237,11 @@ Author of idea:
 	github.com/eastorwest
 Author: 
 	Andrey Kvichanskiy (kvichans, at forum)
-</details>
-  
-  
-Name: Case Converter
-Description: Converts identifiers between several cases (snake_case, camelCase, PascalCase etc)
+</details>----------
+   
+   
+Name: Case Converter  
+Description: Converts identifiers between several cases (snake_case, camelCase, PascalCase etc)  
 <details><summary>readme</summary>
 Plugin for CudaText.
 It allows to change case of current word, or words at several carets, between variants:
@@ -253,11 +253,11 @@ ThePascalCase
 
 Author: Alexey Torgashin
 License: MIT
-</details>
-  
-  
-Name: Color Picker
-Description: Shows color-picker dialog, inserts color #rrggbb
+</details>----------
+   
+   
+Name: Color Picker  
+Description: Shows color-picker dialog, inserts color #rrggbb  
 <details><summary>readme</summary>
 plugin for CudaText.
 gives commands in "Plugins" menu.
@@ -274,11 +274,11 @@ this list is saved to settings/plugins.ini (up to 30 items).
 
 author: Alexey Torgashin (CudaText)
 license: MIT
-</details>
-  
-  
-Name: Color Text
-Description: Allows to colorize text fragments, like function "Style token" in Notepad++
+</details>----------
+   
+   
+Name: Color Text  
+Description: Allows to colorize text fragments, like function "Style token" in Notepad++  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Gives commands to colorize text fragments with several styles
@@ -302,11 +302,11 @@ Authors:
   Alexey T.
   Khomutov Roman
 License: MIT
-</details>
-  
-  
-Name: Colored Indent
-Description: Colorizes spaces/tabs in indents
+</details>----------
+   
+   
+Name: Colored Indent  
+Description: Colorizes spaces/tabs in indents  
 <details><summary>readme</summary>
 plugin for CudaText.
 gives highlighting of indentation levels. by default, highlights only 4 indentation 
@@ -330,11 +330,11 @@ plugin works on events: after file opened; after text is changed and short pause
 author: Alexey Torgashin (CudaText)
 enhancements: Andreas Heim (dinkumoil)
 license: MIT
-</details>
-  
-  
-Name: Column Marks
-Description: Commands to work with additional margins (options "margin", "margin_string")
+</details>----------
+   
+   
+Name: Column Marks  
+Description: Commands to work with additional margins (options "margin", "margin_string")  
 <details><summary>readme</summary>
 plugin for CudaText.
 gives commands to work with vertical lines, "margins".
@@ -352,11 +352,11 @@ plugin reads all these margins, and gives commands:
 
 author: Alexey (CudaText)
 license: MIT
-</details>
-  
-  
-Name: Complete From Text
-Description: Handles auto-completion command (Ctrl+Space) and gives list of words from the current document (or all documents, by option), starting from the currently typed word.
+</details>----------
+   
+   
+Name: Complete From Text  
+Description: Handles auto-completion command (Ctrl+Space) and gives list of words from the current document (or all documents, by option), starting from the currently typed word.  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Handles auto-completion command (default hotkey: Ctrl+Space).
@@ -384,11 +384,11 @@ if option is configured so.
 
 Author: Alexey Torgashin (CudaText)
 License: MIT
-</details>
-  
-  
-Name: Config Toolbar
-Description: Configures main toolbar in CudaText: icon-set and buttons
+</details>----------
+   
+   
+Name: Config Toolbar  
+Description: Configures main toolbar in CudaText: icon-set and buttons  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Allows to configure main toolbar (on the top):
@@ -408,20 +408,20 @@ Notes:
 
 Author: Alexey Torgashin (CudaText)
 License: MIT
-</details>
-  
-  
-Name: Configure Hotkeys
-Description: Shows dialog to view/set hotkeys in editor
+</details>----------
+   
+   
+Name: Configure Hotkeys  
+Description: Shows dialog to view/set hotkeys in editor  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Manager for setting, removing, reporting of hotkeys
 
-Author: Andrey Kvichanskiy (kvichans, at forum/github)</details>
-  
-  
-Name: Config Menu
-Description: Allows to customize CudaText top/context menus, using JSON files
+Author: Andrey Kvichanskiy (kvichans, at forum/github)</details>----------
+   
+   
+Name: Config Menu  
+Description: Allows to customize CudaText top/context menus, using JSON files  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Configures menus, top and context menu (on app start). 
@@ -530,11 +530,11 @@ Notes
     Values for key "cmd" are
         names from py\cudatext_cmd.py (starting with cmd_ or cCommand_),
         strings "module,method" for any plugin module and method in it.
-</details>
-  
-  
-Name: Configure PyCodeStyle linter
-Description: Shows dialog to configure PyCodeStyle linter, and save its config
+</details>----------
+   
+   
+Name: Configure PyCodeStyle linter  
+Description: Shows dialog to configure PyCodeStyle linter, and save its config  
 <details><summary>readme</summary>
 Plugin for CudaText.
 It is helper for "Linter for Python using PEP8". It configurates PEP8 with dialog, and saves config file. File path is:
@@ -544,11 +544,11 @@ It is helper for "Linter for Python using PEP8". It configurates PEP8 with dialo
   (if env var XDG_CONFIG_HOME is found, it is used instead of ~/.config)
 
 Author: Andrey Kvichanskiy (kvichans, at forum/github)
-</details>
-  
-  
-Name: CSS CanIUse
-Description: For CSS files, shows info about selected word from CanIUse.com site
+</details>----------
+   
+   
+Name: CSS CanIUse  
+Description: For CSS files, shows info about selected word from CanIUse.com site  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Adds menu item "Plugins / CSS CanIUse". For CSS based lexers (CSS, SCSS, LESS, Sass, Stylus) 
@@ -556,11 +556,11 @@ it opens http://caniuse.com with info about selected text (or current word if no
 
 Author: Alexey T. (CudaText)
 License: MIT
-</details>
-  
-  
-Name: CSS Inspector
-Description: Plugin shows in HTML document CSS properties of current tag
+</details>----------
+   
+   
+Name: CSS Inspector  
+Description: Plugin shows in HTML document CSS properties of current tag  
 <details><summary>readme</summary>
 CSS Inspector Plugin for CudaText.
 In HTML documents it shows CSS properties of current tag under caret.
@@ -582,11 +582,11 @@ Authors:
   @Medvosa at GitHub
   Alexey Torgashin (CudaText)
 License: MIT
-</details>
-  
-  
-Name: CSS Property Info
-Description: Shows information about selected CSS property in statusbar
+</details>----------
+   
+   
+Name: CSS Property Info  
+Description: Shows information about selected CSS property in statusbar  
 <details><summary>readme</summary>
 plugin for CudaText.
 works for CSS lexers: CSS, SCSS, Sass, LESS, Stylus and HTML.
@@ -607,11 +607,11 @@ option "status_alt": if "1", then result will be shown in the alternative (yello
 
 author: Medvosa, https://github.com/medvosa
 license: MIT
-</details>
-  
-  
-Name: CSS Table of Contents
-Description: For CSS files: creates table-of-contents, its sections/sub-sections
+</details>----------
+   
+   
+Name: CSS Table of Contents  
+Description: For CSS files: creates table-of-contents, its sections/sub-sections  
 <details><summary>readme</summary>
 plugin for CudaText.
 works for CSS lexers: CSS, SCSS, Sass, LESS, Stylus and HTML.
@@ -632,11 +632,11 @@ option "status_alt": if "1", then result will be shown in the alternative (yello
 
 author: Medvosa, https://github.com/medvosa
 license: MIT
-</details>
-  
-  
-Name: CSV Helper
-Description: Highlights columns in CSV and TSV files with different colors. Gives several commands to manage columns. Requires "CSV" and "TSV" lite lexers installed.
+</details>----------
+   
+   
+Name: CSV Helper  
+Description: Highlights columns in CSV and TSV files with different colors. Gives several commands to manage columns. Requires "CSV" and "TSV" lite lexers installed.  
 <details><summary>readme</summary>
 Plugin for CudaText.
 For CSV (comma-separated values) and TSV (tab-separated values), plugin highlights
@@ -659,11 +659,11 @@ Authors:
   Artem Gavrilov https://github.com/Artem3213212
   Oleh Lutsak https://github.com/OlehL
 License: MIT
-</details>
-  
-  
-Name: CSV Helper
-Description: Highlights columns in CSV and TSV files with different colors. Gives several commands to manage columns. Requires "CSV" and "TSV" lite lexers installed.
+</details>----------
+   
+   
+Name: CSV Helper  
+Description: Highlights columns in CSV and TSV files with different colors. Gives several commands to manage columns. Requires "CSV" and "TSV" lite lexers installed.  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Additional commands for CudaText in Commands dialog and Plugins menu
@@ -815,11 +815,11 @@ Menu items
 
 Author: Andrey Kvichanskiy (kvichans, at forum/github)
 License: MIT
-</details>
-  
-  
-Name: CSV Helper
-Description: Highlights columns in CSV and TSV files with different colors. Gives several commands to manage columns. Requires "CSV" and "TSV" lite lexers installed.
+</details>----------
+   
+   
+Name: CSV Helper  
+Description: Highlights columns in CSV and TSV files with different colors. Gives several commands to manage columns. Requires "CSV" and "TSV" lite lexers installed.  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Additional commands for CudaText in Commands dialog and Plugins menu
@@ -971,11 +971,11 @@ Menu items
 
 Author: Andrey Kvichanskiy (kvichans, at forum/github)
 License: MIT
-</details>
-  
-  
-Name: CudaFormatter
-Description: Framework to use code formatters as 2nd-level plugins
+</details>----------
+   
+   
+Name: CudaFormatter  
+Description: Framework to use code formatters as 2nd-level plugins  
 <details><summary>readme</summary>
 Framework to use code formatters in CudaText. Formatters are Python functions which change entire file text or only selected text. Formatters are distributed as separate 2nd-level plugins, which are called via this framework. This approach is like CudaLint and its linters.
 
@@ -1002,11 +1002,11 @@ To see how to write formatters, install "Formatters for JavaScript" which has mo
 
 Author: Alexey Torgashin (CudaText)
 License: MIT
-</details>
-  
-  
-Name: Kvichans lib to use in any plugins
-Description: Utilities for logging, i18n, storing plugin options/states and so on
+</details>----------
+   
+   
+Name: Kvichans lib to use in any plugins  
+Description: Utilities for logging, i18n, storing plugin options/states and so on  
 <details><summary>readme</summary>
 ﻿Library for logging, i18n, storing plugin options/states and so on.
 
@@ -1126,11 +1126,11 @@ you can use
 Saves current file.
 Clears console output.
 Runs the file.
-</details>
-  
-  
-Name: Kvichans lib to use in any plugins
-Description: Utilities for logging, i18n, storing plugin options/states and so on (Python 3.5)
+</details>----------
+   
+   
+Name: Kvichans lib to use in any plugins  
+Description: Utilities for logging, i18n, storing plugin options/states and so on (Python 3.5)  
 <details><summary>readme</summary>
 ﻿Library for logging, i18n, storing plugin options/states and so on.
 
@@ -1250,11 +1250,11 @@ you can use
 Saves current file.
 Clears console output.
 Runs the file.
-</details>
-  
-  
-Name: Kvichans lib with wrapper over dlg_proc and more dialog tools
-Description: Helper library to work with CudaText plugin dialogs
+</details>----------
+   
+   
+Name: Kvichans lib with wrapper over dlg_proc and more dialog tools  
+Description: Helper library to work with CudaText plugin dialogs  
 <details><summary>readme</summary>
 Helper library to work with CudaText plugin dialogs
 
@@ -1262,11 +1262,11 @@ Author: Andrey Kvichansky    (kvichans on github.com)
 License: MIT
 
 See github.com/kvichans/cuda_kv_dlg/wiki
-</details>
-  
-  
-Name: Kvichans lib with wrapper over dlg_proc and more dialog tools
-Description: Helper library to work with CudaText plugin dialogs (Python 3.5)
+</details>----------
+   
+   
+Name: Kvichans lib with wrapper over dlg_proc and more dialog tools  
+Description: Helper library to work with CudaText plugin dialogs (Python 3.5)  
 <details><summary>readme</summary>
 Helper library to work with CudaText plugin dialogs
 
@@ -1274,11 +1274,11 @@ Author: Andrey Kvichansky    (kvichans on github.com)
 License: MIT
 
 See github.com/kvichans/cuda_kv_dlg/wiki
-</details>
-  
-  
-Name: CudaLint
-Description: Linting (syntax-checking) of source code. Needs "linters" for each lexer you want to check. See useful help in readme folder.
+</details>----------
+   
+   
+Name: CudaLint  
+Description: Linting (syntax-checking) of source code. Needs "linters" for each lexer you want to check. See useful help in readme folder.  
 <details><summary>readme</summary>
 CudaLint (plugin for CudaText).
 It allows to check/validate syntax of current file, for many lexers. Each lexer must be supported
@@ -1328,11 +1328,11 @@ Authors:
 
 CudaLint uses code portions from the SublimeLinter 3 project.
 License: MIT
-</details>
-  
-  
-Name: Dash Help
-Description: Opens Dash help pages, for selected text or current word
+</details>----------
+   
+   
+Name: Dash Help  
+Description: Opens Dash help pages, for selected text or current word  
 <details><summary>readme</summary>
 plugin for CudaText.
 allows to call Dash help files (doc-sets) from CudaText. search is made from selected text, or current word if none is selected.
@@ -1351,11 +1351,11 @@ plugin gives commands for 2 main options:
 author: Alexey (CudaText)
 license: MIT
 used some code from Sublime Text plugin DashDoc.
-</details>
-  
-  
-Name: Detect Indent
-Description: Detects indentation (spaces or tabs, tab size) for opened files
+</details>----------
+   
+   
+Name: Detect Indent  
+Description: Detects indentation (spaces or tabs, tab size) for opened files  
 <details><summary>readme</summary>
 Plugin for CudaText
 It handles on_open event, and detects indentation for opened file:
@@ -1365,11 +1365,11 @@ Code is based on Sublime Text's plugin detect_indentation.py.
 It is open source at https://github.com/randy3k/sublime-default
 
 Adapted to CudaText by Alexey T.
-</details>
-  
-  
-Name: DevDocs
-Description: Performs search on DevDocs site
+</details>----------
+   
+   
+Name: DevDocs  
+Description: Performs search on DevDocs site  
 <details><summary>readme</summary>
 This is command plugin for CudaText. 
 It performs search with given words on DevDocs.io site.
@@ -1384,11 +1384,11 @@ Examples:
     If you enter one word, search for all languages (enabled on DevDocs site) will be done. 
 
 Author: Alexey T.
-</details>
-  
-  
-Name: Differ
-Description: Plugin to compare two files and show compare results side by side
+</details>----------
+   
+   
+Name: Differ  
+Description: Plugin to compare two files and show compare results side by side  
 <details><summary>readme</summary>
 Plugin for CudaText.
 It compares two files and shows them side-by-side.
@@ -1404,11 +1404,11 @@ Authors:
   Alexey Torgashin (CudaText)
   Andrey Kvichanskiy (kvichans on GitHub)
 License: MIT
-</details>
-  
-  
-Name: DocBlock
-Description: Helps to type DocBlock comments, for JS/PHP lexers
+</details>----------
+   
+   
+Name: DocBlock  
+Description: Helps to type DocBlock comments, for JS/PHP lexers  
 <details><summary>readme</summary>
 Plugin "DocBlock" for CudaText.
 It helps to enter docblock comments for lexers: PHP, JavaScript, CoffeeScript.
@@ -1425,11 +1425,11 @@ It helps to enter docblock comments for lexers: PHP, JavaScript, CoffeeScript.
 
 Author: Alexey (CudaText)
 License: MIT
-</details>
-  
-  
-Name: Draw Lines
-Description: Draws pseudo-graphic frames in text, by Shift+arrows
+</details>----------
+   
+   
+Name: Draw Lines  
+Description: Draws pseudo-graphic frames in text, by Shift+arrows  
 <details><summary>readme</summary>
 ﻿plugin for CudaText.
 allows to draw preudo-graphic frames in text, using Unicode "box" chars,
@@ -1454,11 +1454,11 @@ usual work.
 
 author: Alexey (CudaText)
 license: MIT
-</details>
-  
-  
-Name: EditorConfig Support
-Description: Supports EditorConfig system
+</details>----------
+   
+   
+Name: EditorConfig Support  
+Description: Supports EditorConfig system  
 <details><summary>readme</summary>
 plugin for CudaText.
 supports EditorConfig system in editor. it reads/applies EditorConfig files 
@@ -1477,11 +1477,11 @@ beginning with CudaText 1.77.6:
 
 author: Alexey Torgashin (CudaText)
 license: MIT
-</details>
-  
-  
-Name: Edits Navigation
-Description: Return to previously edited lines
+</details>----------
+   
+   
+Name: Edits Navigation  
+Description: Return to previously edited lines  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Adds a command to cycle through edited lines. 
@@ -1500,11 +1500,11 @@ Authors:
   @halfbrained (at GitHub)
 
 License: MIT
-</details>
-  
-  
-Name: Emmet Lite
-Description: Emmet engine, see www.emmet.io
+</details>----------
+   
+   
+Name: Emmet Lite  
+Description: Emmet engine, see www.emmet.io  
 <details><summary>readme</summary>
 Emmet Lite plugin for CudaText.
 See www.emmet.io for info.
@@ -1528,11 +1528,11 @@ Emmet syntax detected automatically:
 
 Author: Alexey (CudaText)
 License: MIT
-</details>
-  
-  
-Name: Encode
-Description: Allows to encode text using many transformations (Base64, URL escape, HTML/XML escape, Hash, etc)
+</details>----------
+   
+   
+Name: Encode  
+Description: Allows to encode text using many transformations (Base64, URL escape, HTML/XML escape, Hash, etc)  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Allows to convert text (selected block or entire text if nothing selected) using many codings (transformations).
@@ -1575,22 +1575,22 @@ Codings:
 
 Author: Alexey T (CudaText)
 License: MIT
-</details>
-  
-  
-Name: Explorer Integration
-Description: For Windows: allows to add/remove Explorer context menu item for CudaText, to associate CudaText with file-extensions .txt .ini .cuda-proj .cuda-session.
+</details>----------
+   
+   
+Name: Explorer Integration  
+Description: For Windows: allows to add/remove Explorer context menu item for CudaText, to associate CudaText with file-extensions .txt .ini .cuda-proj .cuda-session.  
 <details><summary>readme</summary>
 Plugin shows dialog to change options of Windows Explorer integration with CudaText. It is like SynWrite's dialog.
 You can add/remove Explorer context menu item for CudaText. And associate Cuda with some file extensions: txt, ini, cuda-proj, cuda-session.
 
 Author: Alexey T.
 License: MIT
-</details>
-  
-  
-Name: Extended Selection
-Description: Extend double/triple-click selection while holding Shift
+</details>----------
+   
+   
+Name: Extended Selection  
+Description: Extend double/triple-click selection while holding Shift  
 <details><summary>readme</summary>
 A plugin to streamline the introduction of copy-paste bugs.
 Adds to usual double-click selection:
@@ -1631,11 +1631,11 @@ Commands in "Plugins / Extended Selection" menu:
     
 Author: Shovel (CudaText forum user)
 License: MIT
-</details>
-  
-  
-Name: ExtTools
-Description: Adds support for calling external programs in CudaText
+</details>----------
+   
+   
+Name: ExtTools  
+Description: Adds support for calling external programs in CudaText  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Allows to call external programs in CudaText.
@@ -1657,11 +1657,11 @@ Details:
 
 Author: A.Kvichanskiy (kvichans at forum/github)
 License: MIT
-</details>
-  
-  
-Name: Extract Strings
-Description: Shows dialog to enter RegEx, this RegEx will find list of strings. You can choose what to do with these strings: copy to clipboard, copy to new tab. Also includes Filter Lines command to find lines.
+</details>----------
+   
+   
+Name: Extract Strings  
+Description: Shows dialog to enter RegEx, this RegEx will find list of strings. You can choose what to do with these strings: copy to clipboard, copy to new tab. Also includes Filter Lines command to find lines.  
 <details><summary>readme</summary>
 Plugin for CudaText.
 
@@ -1673,11 +1673,11 @@ Includes plugin "Filter Lines". Command to find (in current editor tab) all line
 
 Author: Alexey (CudaText)
 License: MIT
-</details>
-  
-  
-Name: Favorites
-Description: Manages "favorites": list of user-selected file names, to quickly open them
+</details>----------
+   
+   
+Name: Favorites  
+Description: Manages "favorites": list of user-selected file names, to quickly open them  
 <details><summary>readme</summary>
 Plugin for CudaText. Gives dialog to call favorite items.
 
@@ -1696,11 +1696,11 @@ Plugin can import favorites from SynWrite. To do it, browse for file "SynFav.ini
 
 Author: Andrey Kvichanskiy (kvichans, at forum/GitHub)
 License: MIT
-</details>
-  
-  
-Name: File Type Profile
-Description: Create profiles for files with certain filename extensions and apply the settings automatically when opening a file.
+</details>----------
+   
+   
+Name: File Type Profile  
+Description: Create profiles for files with certain filename extensions and apply the settings automatically when opening a file.  
 <details><summary>readme</summary>
 ================================================================================
 File Type Profile plugin for CudaText
@@ -1775,11 +1775,11 @@ here: http://wiki.freepascal.org/CudaText#Line_ends
 
 Author: Andreas Heim (dinkumoil, at github & sourceforge)
 License: MIT
-</details>
-  
-  
-Name: file URI handler
-Description: Opens file:/// links in CudaText
+</details>----------
+   
+   
+Name: file URI handler  
+Description: Opens file:/// links in CudaText  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Opens file:/// links in CudaText, for example:
@@ -1801,11 +1801,11 @@ Authors:
   @halfbrained (at GitHub)
 
 License: MIT
-</details>
-  
-  
-Name: Find in Files
-Description: Gives dialog to search for multiple files containing some string/regex, like in file managers.
+</details>----------
+   
+   
+Name: Find in Files  
+Description: Gives dialog to search for multiple files containing some string/regex, like in file managers.  
 <details><summary>readme</summary>
 Plugin "Find in Files" for CudaText. Gives dialog to search/replace in multiple files.
 
@@ -1825,11 +1825,11 @@ Notes:
 - Files are handled line by line, so can't find/replace multiline matches, with line-end chars.
 
 Author: A.Kvichanskiy (kvichans at forum/github)
-</details>
-  
-  
-Name: Find in Files 4
-Description: Gives dialog to search for multiple files containing some string/regex, like in file managers.
+</details>----------
+   
+   
+Name: Find in Files 4  
+Description: Gives dialog to search for multiple files containing some string/regex, like in file managers.  
 <details><summary>readme</summary>
 Plugin "Find in Files" for CudaText. Gives dialog to search/replace in multiple files.
 
@@ -1849,11 +1849,11 @@ Notes:
 - Files are handled line by line, so can't find/replace multiline matches, with line-end chars.
 
 Author: A.Kvichanskiy (kvichans at forum/github)
-</details>
-  
-  
-Name: Find in Files 4
-Description: Gives dialog to search for multiple files (Python 3.5)
+</details>----------
+   
+   
+Name: Find in Files 4  
+Description: Gives dialog to search for multiple files (Python 3.5)  
 <details><summary>readme</summary>
 Plugin "Find in Files" for CudaText. Gives dialog to search/replace in multiple files.
 
@@ -1873,11 +1873,11 @@ Notes:
 - Files are handled line by line, so can't find/replace multiline matches, with line-end chars.
 
 Author: A.Kvichanskiy (kvichans at forum/github)
-</details>
-  
-  
-Name: Focus Mode
-Description: Shades/dims all lines except the current paragraph. Plugin is active only for some lexers, call "Plugins/ Focus Mode/ Config".
+</details>----------
+   
+   
+Name: Focus Mode  
+Description: Shades/dims all lines except the current paragraph. Plugin is active only for some lexers, call "Plugins/ Focus Mode/ Config".  
 <details><summary>readme</summary>
 plugin for CudaText.
 it shades (dims) all lines except the current paragraph (in which 1st caret placed).
@@ -1893,11 +1893,11 @@ to configure which file extensions are handled, call menu item "Options / Settin
 
 author: Alexey T (CudaText)
 license: MIT
-</details>
-  
-  
-Name: Font Awesome
-Description: Search FontAwesome Icons in sidebar and insert the codes in editor.
+</details>----------
+   
+   
+Name: Font Awesome  
+Description: Search FontAwesome Icons in sidebar and insert the codes in editor.  
 <details><summary>readme</summary>
 Font Awesome
 Plugin for CudaText
@@ -1926,11 +1926,11 @@ Uses the free version from https://fontawesome.com
 
 Author: Tom Braider
 License: MIT
-</details>
-  
-  
-Name: Fonts
-Description: Allows to use portable fonts only in CudaText. Fonts are loaded from CudaText data/fonts folder.
+</details>----------
+   
+   
+Name: Fonts  
+Description: Allows to use portable fonts only in CudaText. Fonts are loaded from CudaText data/fonts folder.  
 <details><summary>readme</summary>
 plugin for CudaText.
 for Windows only. loads font files, from [CudaText]/data/fonts folder, on CudaText start. it doesn't install fonts into OS.
@@ -1946,11 +1946,11 @@ example usage:
 
 author: Alexey (CudaText)
 license: MIT
-</details>
-  
-  
-Name: FontStorage
-Description: In CSS code, inserts usage of external fonts from FontStorage.com site
+</details>----------
+   
+   
+Name: FontStorage  
+Description: In CSS code, inserts usage of external fonts from FontStorage.com site  
 <details><summary>readme</summary>
 plugin for CudaText.
 gives menu to work with CSS fonts from site https://fontstorage.com/
@@ -1962,11 +1962,11 @@ b) insert CSS lines (at caret position), which correctly refer to downloaded fil
 
 author: Alexey (CudaText)
 license: MIT
-</details>
-  
-  
-Name: Fountain Helper
-Description: Helper for Fountain lexer: 1) On Shift+Enter it converts line to upper-case and makes new-line, 2) Command to list dialogs of some character, 3) Command to list all scenes, 4) Command to extract all dialogs of some character, 5) On Ctrl+Space after partial character name it gives auto-completion list, 6) Preview as HTML in browser.
+</details>----------
+   
+   
+Name: Fountain Helper  
+Description: Helper for Fountain lexer: 1) On Shift+Enter it converts line to upper-case and makes new-line, 2) Command to list dialogs of some character, 3) Command to list all scenes, 4) Command to extract all dialogs of some character, 5) On Ctrl+Space after partial character name it gives auto-completion list, 6) Preview as HTML in browser.  
 <details><summary>readme</summary>
 plugin for CudaText.
 it gives features for Fountain lexer:
@@ -1996,11 +1996,11 @@ it uses parser from: https://github.com/nathanhoad/fountain-js
 
 author: Alexey Torgashin (CudaText)
 license: MIT
-</details>
-  
-  
-Name: FTP
-Description: Allows to handle remote files/folders on FTP+SFTP servers. Read text file about SFTP support.
+</details>----------
+   
+   
+Name: FTP  
+Description: Allows to handle remote files/folders on FTP+SFTP servers. Read text file about SFTP support.  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Allows to manage remote FTP/SFTP files and directories.
@@ -2039,11 +2039,11 @@ For SFTP, Paramiko lib must be installed (on Linux and macOS).
 Authors: @pohmelie, Alexey T.
 License: MIT
 Homepage: https://github.com/pohmelie/cuda_ftp
-</details>
-  
-  
-Name: Git Status
-Description: Shows Git information in statusbar: current branch name, clean state, etc.
+</details>----------
+   
+   
+Name: Git Status  
+Description: Shows Git information in statusbar: current branch name, clean state, etc.  
 <details><summary>readme</summary>
 plugin for CudaText.
 for active file tab, it shows information about Git repo, in statusbar in additional cell.
@@ -2059,11 +2059,11 @@ plugin has config-file with few options. to edit it, call menu item "Options / S
 author: Alexey (CudaText)
 license: MIT
 icon from GitHub, license: MIT
-</details>
-  
-  
-Name: Hash Generator
-Description: Dialog which allows to calculate hash sums (several algorithms) for files/strings
+</details>----------
+   
+   
+Name: Hash Generator  
+Description: Dialog which allows to calculate hash sums (several algorithms) for files/strings  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Gives dialog, which is similar to PSPad's dialog "Hash generator".
@@ -2086,11 +2086,11 @@ Currently supported hashes:
 
 Author: Alexey (CudaText)
 License: MIT
-</details>
-  
-  
-Name: Hex Dump
-Description: Shows text in hex-dump format
+</details>----------
+   
+   
+Name: Hex Dump  
+Description: Shows text in hex-dump format  
 <details><summary>readme</summary>
 Command plugin for CudaText.
 It converts text from current file (entire file, or only selection, if normal block is selected)
@@ -2103,11 +2103,11 @@ Gives commands in "Plugins - Hex Dump":
 Used hexdump.py by anatoly techtonik, Public Domain.
 Author: Alexey (CudaText)
 License: MIT
-</details>
-  
-  
-Name: Highlight Occurrences
-Description: Highlights/Marks all occurrences of current/selected word/fragment
+</details>----------
+   
+   
+Name: Highlight Occurrences  
+Description: Highlights/Marks all occurrences of current/selected word/fragment  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Highlights all occurrences of current word (under caret), or selected text,
@@ -2159,11 +2159,11 @@ Authors:
   @Jairo-Martinez (at GitHub)
 
 License: MIT
-</details>
-  
-  
-Name: Highlight Variables
-Description: Highlights "variables" inside strings literals (for Bash lexer, etc)
+</details>----------
+   
+   
+Name: Highlight Variables  
+Description: Highlights "variables" inside strings literals (for Bash lexer, etc)  
 <details><summary>readme</summary>
 plugin for CudaText.
 it performs work additional to lexer: highlights "variables" (e.g. in Bash script it's $var or ${var_long}) inside string literals. lexer cannot do this, it highlights string literals with single color.
@@ -2184,11 +2184,11 @@ items:
 
 author: Alexey Torgashin (CudaText)
 license: MIT
-</details>
-  
-  
-Name: HTML Completion
-Description: Handles auto-completion (Ctrl+Space) in HTML/PHP files. 1) Auto-completion with file names, when caret is inside IMG tag. 2) Auto-completion with CSS class/id names, when caret is inside 'class=""' or 'id=""'.
+</details>----------
+   
+   
+Name: HTML Completion  
+Description: Handles auto-completion (Ctrl+Space) in HTML/PHP files. 1) Auto-completion with file names, when caret is inside IMG tag. 2) Auto-completion with CSS class/id names, when caret is inside 'class=""' or 'id=""'.  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Auto-completion plugin, it handles Ctrl+Space command in HTML/PHP files.
@@ -2220,11 +2220,11 @@ Authors:
   Alexey T. (CudaText)
   Artem Gavrilov (@Artem3213212)
 License: MIT
-</details>
-  
-  
-Name: HTML Live Preview
-Description: Provides live preview for HTML files with support of dynamically linked sources
+</details>----------
+   
+   
+Name: HTML Live Preview  
+Description: Provides live preview for HTML files with support of dynamically linked sources  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Allows to use live preview of HTML and Markdown files in the browser, during editing, without need to reload browser page.
@@ -2280,11 +2280,11 @@ Authors:
   Medvosa, https://github.com/medvosa
   Alexey Torgashin (CudaText)
 License: MIT
-</details>
-  
-  
-Name: HTML Ops
-Description: Commands to work with HTML/CSS
+</details>----------
+   
+   
+Name: HTML Ops  
+Description: Commands to work with HTML/CSS  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Gives commands for HTML/CSS work (lexer name can be any).
@@ -2385,11 +2385,11 @@ Gives commands for HTML/CSS work (lexer name can be any).
 
 Author: Alexey T. (CudaText)
 License: MIT
-</details>
-  
-  
-Name: HTML Tidy
-Description: Validates HTML documents using Tidy tool
+</details>----------
+   
+   
+Name: HTML Tidy  
+Description: Validates HTML documents using Tidy tool  
 <details><summary>readme</summary>
 CudaText plugin to integrate HTML Tidy program.
 HTML Tidy is a program, which helps to find errors in HTML documents and to perform some actions on HTML pages, such as "convert tags to lowercase", "convert document to XHTML form", "make document clean", "reformat for better readability" etc.
@@ -2408,11 +2408,11 @@ Help links:
 
 Author: Alexey (CudaText)
 License: MIT
-</details>
-  
-  
-Name: HTML Tooltips
-Description: In HTML/CSS files, plugin shows tooltips for: HTML color values, HTML entities, picture filenames
+</details>----------
+   
+   
+Name: HTML Tooltips  
+Description: In HTML/CSS files, plugin shows tooltips for: HTML color values, HTML entities, picture filenames  
 <details><summary>readme</summary>
 Plugin for CudaText.
 It works in HTML/CSS files (any lexer name with words "HTML", "CSS").
@@ -2446,11 +2446,11 @@ https://www.rapidtables.com/convert/color/rgb-to-hsl.html
 
 Author: Alexey (CudaText)
 License: MIT
-</details>
-  
-  
-Name: Insert Emoji
-Description: Dialog with list of most common emojis (about 900), to insert emoji name like :smile:
+</details>----------
+   
+   
+Name: Insert Emoji  
+Description: Dialog with list of most common emojis (about 900), to insert emoji name like :smile:  
 <details><summary>readme</summary>
 plugin for CudaText.
 it shows list of common emoji with pictures (about 880 items in list).
@@ -2465,11 +2465,11 @@ https://www.webpagefx.com/tools/emoji-cheat-sheet/
 
 author: Alexey T (CudaText)
 license: MIT
-</details>
-  
-  
-Name: Insert Pics
-Description: Allows to insert preview of pictures (png/jpeg/gif/bmp/ico) into text. Saves pictures in helper file, to automatically load pics on file re-opening.
+</details>----------
+   
+   
+Name: Insert Pics  
+Description: Allows to insert preview of pictures (png/jpeg/gif/bmp/ico) into text. Saves pictures in helper file, to automatically load pics on file re-opening.  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Gives the ability to insert picture files (PNG/JPEG/GIF/BMP/ICO) to inter-line gaps,
@@ -2496,30 +2496,30 @@ They're deleted only if you delete their lines, or use plugin's commands to dele
 
 Author: Alexey Torgashin (CudaText)
 License: MIT
-</details>
-  
-  
-Name: In-text bookmarks
-Description: Allows to place bookmarks as text-comments (permanent bookmarks), and to navigate to them
+</details>----------
+   
+   
+Name: In-text bookmarks  
+Description: Allows to place bookmarks as text-comments (permanent bookmarks), and to navigate to them  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Allows to manage bookmarks which are text-comments of special kind.
 Can add, show list, jump to bookmarks.
 
-Author: Andrey Kvichanskiy (kvichans, at forum/github)</details>
-  
-  
-Name: In-text complete
-Description: Suggests completions for syntax expressions, using fragments from the entire text
+Author: Andrey Kvichanskiy (kvichans, at forum/github)</details>----------
+   
+   
+Name: In-text complete  
+Description: Suggests completions for syntax expressions, using fragments from the entire text  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Allows to complete expression (word, calling, ...) by variants found in the whole text.
 
-Author: Andrey Kvichanskiy (kvichans, at forum/github)</details>
-  
-  
-Name: IP Address Helper
-Description: When mouse hovers IP address in text, plugin shows country of that address in the statusbar
+Author: Andrey Kvichanskiy (kvichans, at forum/github)</details>----------
+   
+   
+Name: IP Address Helper  
+Description: When mouse hovers IP address in text, plugin shows country of that address in the statusbar  
 <details><summary>readme</summary>
 plugin for CudaText.
 on hovering mouse over IP address, plugin shows country of that IP in the statusbar.
@@ -2528,11 +2528,11 @@ supports IPv4 and IPv6 addresses.
 
 author: Medvosa (at GitHub)
 license: MIT
-</details>
-  
-  
-Name: JS Multiline Array
-Description: Converts several selected lines of text - to JavaScript string array
+</details>----------
+   
+   
+Name: JS Multiline Array  
+Description: Converts several selected lines of text - to JavaScript string array  
 <details><summary>readme</summary>
 Plugin for CudaText
 It reads current selection (only 1 caret allowed) and converts it to JavaScript array of string,
@@ -2548,11 +2548,11 @@ Commands are in Plugins menu.
 Converter code (few lines) from https://github.com/metatribal/sublime-jsmultiline
 License for this plugin: Apache 2.0 or MIT
 Author: Alexey T. (CudaText)
-</details>
-  
-  
-Name: JS Tern
-Description: Gives intelligence commands for JavaScript: 1) auto-complete (Ctrl+Space), 2) go-to-definition (item in context menu), 3) show function call-tip, 4) show doc-string, 5) show usages. Based on Tern engine, requires Node.js.
+</details>----------
+   
+   
+Name: JS Tern  
+Description: Gives intelligence commands for JavaScript: 1) auto-complete (Ctrl+Space), 2) go-to-definition (item in context menu), 3) show function call-tip, 4) show doc-string, 5) show usages. Based on Tern engine, requires Node.js.  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Gives intelligence commands for JavaScript, using Tern engine, http://ternjs.net/
@@ -2579,11 +2579,11 @@ Authors:
 - Alexey T. (CudaText)
     
 License: MIT
-</details>
-  
-  
-Name: Lorem Ipsum
-Description: Inserts "Lorem Ipsum" text (placeholder for HTML pages)
+</details>----------
+   
+   
+Name: Lorem Ipsum  
+Description: Inserts "Lorem Ipsum" text (placeholder for HTML pages)  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Gives dialog to insert "lorem upsum" (standard template) text.
@@ -2593,11 +2593,11 @@ Multi-carets are supported, text will be inserted at multi-carets.
 
 Author: Alexey (CudaText)
 License: MIT
-</details>
-  
-  
-Name: Macros
-Description: Macros manager for CudaText. Gives commands to record/playback/save/delete/etc macros.
+</details>----------
+   
+   
+Name: Macros  
+Description: Macros manager for CudaText. Gives commands to record/playback/save/delete/etc macros.  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Macros manager for CudaText. Gives commands to record/playback/save/delete/etc macros.
@@ -2605,11 +2605,11 @@ Macros manager for CudaText. Gives commands to record/playback/save/delete/etc m
 Config and data file:
 	settings\macros.json
 
-Author: Andrey Kvichanskiy (kvichans, at forum/github)</details>
-  
-  
-Name: Markdown Editing
-Description: Helpers for editing Markdown documents
+Author: Andrey Kvichanskiy (kvichans, at forum/github)</details>----------
+   
+   
+Name: Markdown Editing  
+Description: Helpers for editing Markdown documents  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Supports features during editing of Markdown documents.
@@ -2659,11 +2659,11 @@ Authors:
   Medvosa, https://github.com/medvosa
   Alexey (CudaText)
 License: MIT
-</details>
-  
-  
-Name: Markdown Preview
-Description: Previews Markdown text as HTML page in browser
+</details>----------
+   
+   
+Name: Markdown Preview  
+Description: Previews Markdown text as HTML page in browser  
 <details><summary>readme</summary>
 Plugin "Markdown Preview" for CudaText.
 It converts Markdown text to HTML (using Python library), and then opens HTML file in browser. 
@@ -2675,11 +2675,11 @@ https://pythonhosted.org/Markdown/extensions/#officially-supported-extensions
 
 Author: Alexey T.
 License: MIT
-</details>
-  
-  
-Name: Micro Utils
-Description: Minor commands to work with bin/hex numbers, etc
+</details>----------
+   
+   
+Name: Micro Utils  
+Description: Minor commands to work with bin/hex numbers, etc  
 <details><summary>readme</summary>
 plugin for CudaText.
 small commands to work with binary/hex numbers, etc.
@@ -2712,11 +2712,11 @@ Sorts all lines in the current editor. First go short lines, then longer. Same l
 
 author: Alexey (CudaText)
 license: MIT
-</details>
-  
-  
-Name: NTFS Streams
-Description: Allows to work with NTFS file streams (Windows)
+</details>----------
+   
+   
+Name: NTFS Streams  
+Description: Allows to work with NTFS file streams (Windows)  
 <details><summary>readme</summary>
 plugin for CudaText.
 gives dialog which allows to work with Windows NTFS file streams (ADS).
@@ -2730,11 +2730,11 @@ dialog works with streams of currently active file:
 
 author: Alexey T (CudaText)
 license: MIT
-</details>
-  
-  
-Name: Number Utils
-Description: Commands for numbers: insert row of numbers, convert to text or Romans, etc.
+</details>----------
+   
+   
+Name: Number Utils  
+Description: Commands for numbers: insert row of numbers, convert to text or Romans, etc.  
 <details><summary>readme</summary>
 plugin for CudaText.
 merged several plugins, which give number-related commands.
@@ -2816,11 +2816,11 @@ authors:
   Alexey Torgashin (CudaText)
   Jairo Martinez Antonio https://github.com/Jairo-Martinez
 license: MIT
-</details>
-  
-  
-Name: Numbered Bookmarks
-Description: Allows to set and go to numbered bookmarks (1..8)
+</details>----------
+   
+   
+Name: Numbered Bookmarks  
+Description: Allows to set and go to numbered bookmarks (1..8)  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Gives commands to
@@ -2831,11 +2831,11 @@ Numbered bookmarks behave like usual bookmarks, but they have special icon (with
 
 License: MIT
 Author: Alexey (CudaText)
-</details>
-  
-  
-Name: Online Search
-Description: Opens webbrowser with search for selection/word, supports several search engines
+</details>----------
+   
+   
+Name: Online Search  
+Description: Opens webbrowser with search for selection/word, supports several search engines  
 <details><summary>readme</summary>
 plugin for CudaText.
 gives several commands to call online (www) search engines, for currently selected text (Google, Bing, Wikipedia) or for current word (programming docs).
@@ -2852,11 +2852,11 @@ commands open web-browser with search results.
 
 author: Alexey (CudaText)
 license: MIT
-</details>
-  
-  
-Name: Open URL
-Description: Gives commands to open URL (under text caret) in many browsers
+</details>----------
+   
+   
+Name: Open URL  
+Description: Gives commands to open URL (under text caret) in many browsers  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Gives menu "Plugins / Open URL" with several commands to open URL (under first caret in editor) in browser. Commands:
@@ -2882,21 +2882,21 @@ Option "action_on_click": number:
 
 Author: Alexey (CudaText)
 License: MIT
-</details>
-  
-  
-Name: Options Report
-Description: Shows HTML page with report of options
+</details>----------
+   
+   
+Name: Options Report  
+Description: Shows HTML page with report of options  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Shows detailed report about options, as HTML file, in browser.
 
 Author: Andrey Kvichanskiy (kvichans, at forum)
-</details>
-  
-  
-Name: Pandoc Helper
-Description: Uses Pandoc tool, to convert several markup formats to output formats, which Pandoc supports (Word, PDF, Markdown etc)
+</details>----------
+   
+   
+Name: Pandoc Helper  
+Description: Uses Pandoc tool, to convert several markup formats to output formats, which Pandoc supports (Word, PDF, Markdown etc)  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Gives command to call Pandoc tool, to convert current file to some format, which Pandoc supports.
@@ -2917,31 +2917,31 @@ Pandoc program name:
 
 Author: Alexey T. (CudaText)
 License: MIT
-</details>
-  
-  
-Name: Password Generator
-Description: Generating a random password of a certain length from certain characters
+</details>----------
+   
+   
+Name: Password Generator  
+Description: Generating a random password of a certain length from certain characters  
 <details><summary>readme</summary>
 Plugin for CudaText
 Generating a random password of a certain length from certain characters
 
 Aauthor: ildar r. khasanshin (10021987.ru)
-License: MIT</details>
-  
-  
-Name: Paste as String
-Description: Pastes text from Clipboard as "string" for current lexer
+License: MIT</details>----------
+   
+   
+Name: Paste as String  
+Description: Pastes text from Clipboard as "string" for current lexer  
 <details><summary>readme</summary>
 Plugin for CudaText
 Generating a random password of a certain length from certain characters
 
 Aauthor: ildar r. khasanshin (10021987.ru)
-License: MIT</details>
-  
-  
-Name: Plain Tasks
-Description: ToDo-list plugin for CudaText
+License: MIT</details>----------
+   
+   
+Name: Plain Tasks  
+Description: ToDo-list plugin for CudaText  
 <details><summary>readme</summary>
 Plain Tasks plugin for CudaText
 
@@ -3025,11 +3025,11 @@ About
 
     Author: OlehL, https://github.com/OlehL
     License: MIT
-</details>
-  
-  
-Name: Python IntelliSense
-Description: Supports intelligence commands for Python: 1) auto-completion (Ctrl+Space), 2) goto-definition (item in context menu), 3) show function call-tip (Ctrl+Shift+Space), 4) show function doc-string, 5) show usages of name. Based on Jedi library.
+</details>----------
+   
+   
+Name: Python IntelliSense  
+Description: Supports intelligence commands for Python: 1) auto-completion (Ctrl+Space), 2) goto-definition (item in context menu), 3) show function call-tip (Ctrl+Shift+Space), 4) show function doc-string, 5) show usages of name. Based on Jedi library.  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Gives intelligence commands for Python lexer.
@@ -3083,10 +3083,10 @@ Authors:
   Alexey Torgashin (CudaText)
   Oleh Lutsak https://github.com/OlehL/
 License: MIT
-</details>
-  
-  
-Name: pywin32 libraries
+</details>----------
+   
+   
+Name: pywin32 libraries  
 <details><summary>readme</summary>
 Library "pywin32" and its requires libraries.
 From https://github.com/mhammond/pywin32/releases
@@ -3096,11 +3096,11 @@ Additional python wrapper is taken from Sublime Text addon "TextToSpeech".
 
 Author: Alexey (CudaText)
 License: MIT
-</details>
-  
-  
-Name: Remove Greek Accents
-Description: Replaces Greek letters with accents - to similar letters without accents
+</details>----------
+   
+   
+Name: Remove Greek Accents  
+Description: Replaces Greek letters with accents - to similar letters without accents  
 <details><summary>readme</summary>
 plugin for CudaText.
 the idea is from Sublime Text plugin.
@@ -3117,11 +3117,11 @@ CudaText plugin gives one command. it handles the selection, or entire text if n
 
 author: Alexey (CudaText)
 license: MIT
-</details>
-  
-  
-Name: reStructuredText Preview
-Description: Previews reStructuredText file as HTML page in browser
+</details>----------
+   
+   
+Name: reStructuredText Preview  
+Description: Previews reStructuredText file as HTML page in browser  
 <details><summary>readme</summary>
 plugin for CudaText.
 works with lexer reStructuredText (reST).
@@ -3129,11 +3129,11 @@ converts active editor tab (with lexer reST) into HTML document, opens HTML in w
 
 author: Alexey (CudaText)
 license: MIT
-</details>
-  
-  
-Name: Session Manager
-Description: Allows to manage "sessions" in editor
+</details>----------
+   
+   
+Name: Session Manager  
+Description: Allows to manage "sessions" in editor  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Gives commands in menu "Plugins" to manage sessions. Session is a set of opened named documents, with properties of each document: caret position, encoding, lexer, bookmarks etc. Session also contains information how "editor groups" are placed/resized. Sessions are stored to files in JSON format, with .cuda-session extension, usually in the "settings" folder of CudaText.
@@ -3151,10 +3151,10 @@ Plugin commands:
 
 Author: Andrey Kvichanskiy https://github.com/kvichans/
 License: MIT
-</details>
-  
-  
-Name: SFTP support for FTP plugin, Windows x32/x64, Python 3.5
+</details>----------
+   
+   
+Name: SFTP support for FTP plugin, Windows x32/x64, Python 3.5  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Gives commands in menu "Plugins" to manage sessions. Session is a set of opened named documents, with properties of each document: caret position, encoding, lexer, bookmarks etc. Session also contains information how "editor groups" are placed/resized. Sessions are stored to files in JSON format, with .cuda-session extension, usually in the "settings" folder of CudaText.
@@ -3172,10 +3172,10 @@ Plugin commands:
 
 Author: Andrey Kvichanskiy https://github.com/kvichans/
 License: MIT
-</details>
-  
-  
-Name: SFTP support for FTP plugin, Windows x32/x64, Python 3.6
+</details>----------
+   
+   
+Name: SFTP support for FTP plugin, Windows x32/x64, Python 3.6  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Gives commands in menu "Plugins" to manage sessions. Session is a set of opened named documents, with properties of each document: caret position, encoding, lexer, bookmarks etc. Session also contains information how "editor groups" are placed/resized. Sessions are stored to files in JSON format, with .cuda-session extension, usually in the "settings" folder of CudaText.
@@ -3193,10 +3193,10 @@ Plugin commands:
 
 Author: Andrey Kvichanskiy https://github.com/kvichans/
 License: MIT
-</details>
-  
-  
-Name: SFTP support for FTP plugin, Windows x32/x64, Python 3.7
+</details>----------
+   
+   
+Name: SFTP support for FTP plugin, Windows x32/x64, Python 3.7  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Gives commands in menu "Plugins" to manage sessions. Session is a set of opened named documents, with properties of each document: caret position, encoding, lexer, bookmarks etc. Session also contains information how "editor groups" are placed/resized. Sessions are stored to files in JSON format, with .cuda-session extension, usually in the "settings" folder of CudaText.
@@ -3214,11 +3214,11 @@ Plugin commands:
 
 Author: Andrey Kvichanskiy https://github.com/kvichans/
 License: MIT
-</details>
-  
-  
-Name: Show Unicode Name
-Description: Shows full Unicode name of a character under first caret, in the statusbar
+</details>----------
+   
+   
+Name: Show Unicode Name  
+Description: Shows full Unicode name of a character under first caret, in the statusbar  
 <details><summary>readme</summary>
 plugin for CudaText.
 shows Unicode full name (e.g. "LATIN CAPITAL E") for character under first caret.
@@ -3227,11 +3227,11 @@ seems it doesn't slow down editor (on 2010 year average PC).
 
 author: Alexey (CudaText)
 license: MIT
-</details>
-  
-  
-Name: Snippets
-Description: Snippets engine, described in CudaText wiki. Snippets are expanded by Tab-key or can be called from menu.
+</details>----------
+   
+   
+Name: Snippets  
+Description: Snippets engine, described in CudaText wiki. Snippets are expanded by Tab-key or can be called from menu.  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Snippets engine, which is described in CudaText wiki:
@@ -3273,11 +3273,11 @@ Authors:
   Alexey Torgashin (CudaText)
   Oleh Lutsak (https://github.com/OlehL)
 License: MIT
-</details>
-  
-  
-Name: SnipToCall
-Description: Allows to use snippet-strings to call any commands (internal or plugins). Can be configured also from "Configure Hotkeys" plugin.
+</details>----------
+   
+   
+Name: SnipToCall  
+Description: Allows to use snippet-strings to call any commands (internal or plugins). Can be configured also from "Configure Hotkeys" plugin.  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Gives the new way for calling commands (internal in CudaText, and external from plugins, e.g. ExtTools or Macros).
@@ -3288,11 +3288,11 @@ Assign snip-strings to some commands, e.g. "pu" for "caret page up". Then you ca
 Also plugin "Configure Hotkeys" is changed, in it you can also see and change snip-strings.
 
 Author: A.Kvichanskiy (kvichans at github.com)
-</details>
-  
-  
-Name: Spell Checker
-Description: Spell checker, based on Hunspell dictionaries. Shows red underlines for misspelled words, gives suggestions dialog.
+</details>----------
+   
+   
+Name: Spell Checker  
+Description: Spell checker, based on Hunspell dictionaries. Shows red underlines for misspelled words, gives suggestions dialog.  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Gives spell checking by using Enchant/PyEnchant libraries.
@@ -3373,11 +3373,11 @@ Options:
 
 Author: Alexey Torgashin (CudaText)
 License: MIT
-</details>
-  
-  
-Name: SPIR Helper
-Description: Auto-completion for SPIR lexer
+</details>----------
+   
+   
+Name: SPIR Helper  
+Description: Auto-completion for SPIR lexer  
 <details><summary>readme</summary>
 plugin for CudaText.
 provides auto-completion for SPIR (i.e. SPIR-V) lexer.
@@ -3390,11 +3390,11 @@ authors:
   Artem Gavrilov, https://github.com/Artem3213212
   Alexey Torgashin (CudaText)
 license: MIT
-</details>
-  
-  
-Name: SQL Tools
-Description: Swiss army knife for your SQL databases. Gives lot of commands to work with databases: execute queries, format queries, show tables schema, show tables records, etc.
+</details>----------
+   
+   
+Name: SQL Tools  
+Description: Swiss army knife for your SQL databases. Gives lot of commands to work with databases: execute queries, format queries, show tables schema, show tables records, etc.  
 <details><summary>readme</summary>
 plugin for CudaText.
 provides auto-completion for SPIR (i.e. SPIR-V) lexer.
@@ -3407,11 +3407,11 @@ authors:
   Artem Gavrilov, https://github.com/Artem3213212
   Alexey Torgashin (CudaText)
 license: MIT
-</details>
-  
-  
-Name: Sum Lines
-Description: Calculates sum/min/max/avg of numbers in selected lines
+</details>----------
+   
+   
+Name: Sum Lines  
+Description: Calculates sum/min/max/avg of numbers in selected lines  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Plugin gives command "Sum Lines", which sums numbers in selection. 
@@ -3447,11 +3447,11 @@ Report will be like:
 
 Author: Alexey (CudaText)
 License: MIT
-</details>
-  
-  
-Name: Switch Header
-Description: Switches file pairs: c<>h, cpp<>h, cc<>h, asm<>inc
+</details>----------
+   
+   
+Name: Switch Header  
+Description: Switches file pairs: c<>h, cpp<>h, cc<>h, asm<>inc  
 <details><summary>readme</summary>
 plugin for CudaText.
 gives command to switch from the current file to its pair file, usually from source-code file to header-file (and vice versa). for example: 
@@ -3464,11 +3464,11 @@ Options / Settings-plugins / Switch Header / Config
 
 author: Alexey (CudaText)
 license: MIT
-</details>
-  
-  
-Name: Sync Editing
-Description: Syncronized Editing like in SynWrite editor. Select block, activate plugin, and then you can rename equal identifiers in this block, by editing one identifier.
+</details>----------
+   
+   
+Name: Sync Editing  
+Description: Syncronized Editing like in SynWrite editor. Select block, activate plugin, and then you can rename equal identifiers in this block, by editing one identifier.  
 <details><summary>readme</summary>
 Plugin for CudaText
 Sync Editing feature to edit identical identifiers, inspired by SynWrite editor.
@@ -3491,11 +3491,11 @@ with lexer style, beginning with "Id", but not containing "keyword".
 
 Author: Vladislav Utkin (viad00 at GitHub)
 License: MIT
-</details>
-  
-  
-Name: Sync Scroll
-Description: Synchronizes vertical and/or horizontal scrolling of editors in groups 1 and 2
+</details>----------
+   
+   
+Name: Sync Scroll  
+Description: Synchronizes vertical and/or horizontal scrolling of editors in groups 1 and 2  
 <details><summary>readme</summary>
 plugin for CudaText.
 it sync's vertical and/or horizontal scrolling for active files in groups 1 and 2.
@@ -3510,11 +3510,11 @@ authors:
   Alexey Torgashin (CudaText)
   Artem Gavrilov (@Artem3213212 at GitHub)
 license: MIT
-</details>
-  
-  
-Name: Tab Colors
-Description: Allows to colorize tab headers per lexer, or per file extension
+</details>----------
+   
+   
+Name: Tab Colors  
+Description: Allows to colorize tab headers per lexer, or per file extension  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Allows to colorize ui-tabs headers: per lexer, and per file extension.
@@ -3531,11 +3531,11 @@ Authors:
   Alexey (CudaText)
   Shovel (CudaText forum user)
 License: MIT
-</details>
-  
-  
-Name: Tab Icons
-Description: Shows file-type icons on tab headers (same icons, which Project Manager shows)
+</details>----------
+   
+   
+Name: Tab Icons  
+Description: Shows file-type icons on tab headers (same icons, which Project Manager shows)  
 <details><summary>readme</summary>
 plugin for CudaText.
 it shows file-type-icons on UI tab headers. icons are loaded from themes, from subfolder
@@ -3550,11 +3550,11 @@ for themes with bigger icon size (e.g. 24x24) you will need to adjust CudaText o
 
 author: Alexey (CudaText)
 license: MIT
-</details>
-  
-  
-Name: Terminal
-Description: Gives "Terminal" panel in the bottom panel of CudaText
+</details>----------
+   
+   
+Name: Terminal  
+Description: Gives "Terminal" panel in the bottom panel of CudaText  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Adds panel "Terminal" to the bottom panel of CudaText. It is emulation of terminal (default: Bash on Unix, Cmd on Windows). You can enter commands in this terminal, and see output from shell. 
@@ -3575,11 +3575,11 @@ Authors:
 
 License: MIT
 Credits for icon: GitHub.com, MIT license
-</details>
-  
-  
-Name: Testing of Code Tree API
-Description: Plugin tests filling Code Tree by API: for Markdown lexer, it fills Code Tree with some fake lines
+</details>----------
+   
+   
+Name: Testing of Code Tree API  
+Description: Plugin tests filling Code Tree by API: for Markdown lexer, it fills Code Tree with some fake lines  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Adds panel "Terminal" to the bottom panel of CudaText. It is emulation of terminal (default: Bash on Unix, Cmd on Windows). You can enter commands in this terminal, and see output from shell. 
@@ -3600,11 +3600,11 @@ Authors:
 
 License: MIT
 Credits for icon: GitHub.com, MIT license
-</details>
-  
-  
-Name: Testing of dialog API
-Description: Testing plugin of CudaText dialog API
+</details>----------
+   
+   
+Name: Testing of dialog API  
+Description: Testing plugin of CudaText dialog API  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Adds panel "Terminal" to the bottom panel of CudaText. It is emulation of terminal (default: Bash on Unix, Cmd on Windows). You can enter commands in this terminal, and see output from shell. 
@@ -3625,11 +3625,11 @@ Authors:
 
 License: MIT
 Credits for icon: GitHub.com, MIT license
-</details>
-  
-  
-Name: Testing of gaps API
-Description: Plugin to test CudaText Editor.gaps() API
+</details>----------
+   
+   
+Name: Testing of gaps API  
+Description: Plugin to test CudaText Editor.gaps() API  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Adds panel "Terminal" to the bottom panel of CudaText. It is emulation of terminal (default: Bash on Unix, Cmd on Windows). You can enter commands in this terminal, and see output from shell. 
@@ -3650,11 +3650,11 @@ Authors:
 
 License: MIT
 Credits for icon: GitHub.com, MIT license
-</details>
-  
-  
-Name: Text Statistics
-Description: Shows for current text: count of lines, words, letters, all chars
+</details>----------
+   
+   
+Name: Text Statistics  
+Description: Shows for current text: count of lines, words, letters, all chars  
 <details><summary>readme</summary>
 plugin for CudaText.
 gets statistics for text in the current editor tab.
@@ -3670,11 +3670,11 @@ gets info:
 
 author: Alexey T.
 license: MIT
-</details>
-  
-  
-Name: Textile Preview
-Description: Previews Textile documents as HTML page in browser
+</details>----------
+   
+   
+Name: Textile Preview  
+Description: Previews Textile documents as HTML page in browser  
 <details><summary>readme</summary>
 Plugin for CudaText.
 It converts Textile text to HTML (using Python Textile library), and then opens HTML file in browser. 
@@ -3682,11 +3682,11 @@ It converts Textile text to HTML (using Python Textile library), and then opens 
 
 Author: Alexey T.
 License: MIT
-</details>
-  
-  
-Name: TextToSpeech
-Description: Speak text using Windows Speech API
+</details>----------
+   
+   
+Name: TextToSpeech  
+Description: Speak text using Windows Speech API  
 <details><summary>readme</summary>
 Plugin for CudaText.
 Uses system-provided speech synthesis platform to speak text.
@@ -3701,11 +3701,11 @@ Option "tts_voice" allows to change voice, e.g. to "Microsoft Sam" or "Microsoft
 Ported from Sublime Text plugin "TextToSpeech".
 Author: Alexey Torgashin (CudaText)
 License: MIT
-</details>
-  
-  
-Name: Vim Mode
-Description: Allows to use Vim key bindings
+</details>----------
+   
+   
+Name: Vim Mode  
+Description: Allows to use Vim key bindings  
 <details><summary>readme</summary>
 plugin for CudaText.
 command in Plugins menu activates Vim key bindings, initially in Vim command mode. Vim mode is activated in all editor tabs at once. 
@@ -3818,4 +3818,4 @@ d) Vim command mode supported keys:
 author: Alexey (CudaText)
 suggestions/testing: @mangobait, @oO0XX0Oo, @acicovic
 license: MIT
-</details>
+</details>----------
