@@ -1,0 +1,142 @@
+{ 
+  "Major":[
+    "Complete From Text", 
+    "CudaExt",
+    "CudaExt_py35",
+    "CudaLint", 
+    "DevDocs", 
+    "Differ", 
+    "ExtTools", 
+    "Favorites", 
+    "Find in Files", 
+    "Find in Files 4", 
+    "Find in Files 4", 
+    "Highlight Occurrences", 
+    "In-text complete", 
+    "Macros", 
+    "Snippets", 
+    "Sync Editing", 
+    "Terminal"
+  ],
+  
+  "Misc":[
+    "Auto Center Line",
+    "Auto-Copy to Clipboard",
+    "Auto Replace",
+    "Auto Save",
+    "Backup File",
+    "Calc Expression",
+    "Caret History",
+    "Case Converter",
+    "Color Picker",
+    "Color Text",
+    "Colored Indent",
+    "Column Marks",
+    "CudaFormatter",
+    "Detect Indent",
+    "EditorConfig Support",
+    "Edits Navigation",
+    "Encode",
+    "Extended Selection",
+    "Extract Strings",
+    "File Type Profile",
+    "file URI handler",
+    "Focus Mode",
+    "Git Status",
+    "Hash Generator",
+    "Hex Dump",
+    "Highlight Variables",
+    "IP Address Helper",
+    "Insert Pics",
+    "In-text bookmarks",
+    "Micro Utils",
+    "Numbered Bookmarks",
+    "Online Search",
+    "Open URL",
+    "Paste as String",
+    "Plain Tasks",
+    "SnipToCall",
+    "Spell Checker",
+    "Sync Scroll",
+    "TextToSpeech",
+    "Tab Colors",
+    "Tab Icons",
+    "Vim Mode"
+  ],
+  
+  "Language/Filetype":[
+    "AutoIt Helper",
+    "CSS CanIUse",
+    "CSS Inspector",
+    "CSS Property Info",
+    "CSS Table of Contents",
+    "FontStorage", 
+    "CSV Helper",
+    "DocBlock",
+    "Emmet Lite",
+    "Fountain Helper",
+    "HTML Completion",
+    "HTML Live Preview",
+    "HTML Ops",
+    "HTML Tooltips",
+    "HTML Tidy",
+    "JS Multiline Array",
+    "JS Tern", 
+    "Markdown Editing",
+    "Markdown Preview", 
+    "Pandoc Helper",
+    "Configure PyCodeStyle linter",
+    "Python IntelliSense",
+    "SPIR Helper",
+    "SQL Tools",
+    "Textile Preview",
+    "reStructuredText Preview"
+  ],
+    
+  "Editor Config":[
+    "Config Toolbar", 
+    "Configure Hotkeys", 
+    "Config Menu", 
+    "Session Manager"
+  ],
+  
+  "Extra":[
+    "ASCII Art",
+    "Draw Lines",
+    "Insert Emoji",
+    "Lorem Ipsum",
+    "Number Utils",
+    "Options Report",
+    "Password Generator",
+    "Remove Greek Accents",
+    "Show Unicode Name",
+    "Switch Header",
+    "Text Statistics",
+    "Sum Lines"
+  ],
+  
+  "System":[
+    "Explorer Integration",
+    "FTP",
+    "Fonts",
+    "NTFS Streams",
+    "SFTP support for FTP plugin, Windows x32/x64, Python 3.5",
+    "SFTP support for FTP plugin, Windows x32/x64, Python 3.6",
+    "SFTP support for FTP plugin, Windows x32/x64, Python 3.7",
+    "pywin32 libraries"
+  ],
+  
+  "Plugin/Dev":[
+    "Kvichans lib to use in any plugins",
+    "Kvichans lib with wrapper over dlg_proc and more dialog tools",
+    "Testing of Code Tree API",
+    "Testing of dialog API",
+    "Testing of gaps API"
+  ],
+  
+  "?":[
+    "Dash Help", 
+    "Font Awesome"
+  ]
+}
+

@@ -4,6 +4,7 @@ import sys
 import os
 import zipfile
 import configparser
+import json
  
 PRE = """# CudaText Plugins List (WIP)
 <details><summary>How to install</summary>  
@@ -13,13 +14,15 @@ Copy plugin directory to _py_ directory that lives alongside CudaText executable
   
 TODO:  
 * ~~fix formatting~~
-* add list ordered by popularity  
+* add list ordered by popularity
 ---
 
 
 """
 
-add_readmes = True
+output = "README.md"
+add_readmes = False
+categories = True
  
  
 def main():
@@ -65,11 +68,14 @@ def main():
       efs += 1
   print(f'efs:{efs}')
   
-  utf2file(PRE + '\n   \n   \n'.join(res), 'plugins_with_readmes.md')
+  if categories:
+    res = categorize(res)
+  
+  utf2file(PRE + '\n   \n   \n'.join(res), output)
       
       
 def format(name, descr, readme, git):
-  res = f'* [{name}]({git})'
+  res = f'* [{name}]({git})' # depends_A
   if descr:
     res += f' - {descr}  '
   if add_readmes  and  readme:
@@ -94,6 +100,37 @@ def get_git(txt):
   config.read_string(txt)
   
   return config['info']['homepage']
+  
+
+#FIXME handle plugins with the same name (Find in files)
+def categorize(l):
+  with open('tags.json', 'r', encoding='utf-8') as f:
+    tags = json.load(f)
+    
+  result = []
+  for tag,names in tags.items(): # dict preserves order since python3.7
+    result.append(f'* ## {tag}')
+    
+    for name in names:
+      tofind = f'* [{name}](' # depends_A
+      # find plugin item
+      item = None
+      for tmpitem in l:
+        if tofind in tmpitem:
+          item = tmpitem
+          break
+      else:
+        print(f'~ Couldnt find item in formatteds: <{tag}>.<{name}>')
+        continue
+      
+      # list subitems indetation
+      item = '    '+item.replace('\n', '\n    ')+'    '
+      result.append(item)
+      
+  return result
+
+    
+
   
   
 def utf2file(ustr, filepath):
