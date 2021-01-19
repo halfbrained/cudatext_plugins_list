@@ -7,6 +7,7 @@ Copy plugin directory to _py_ directory that lives alongside CudaText executable
 TODO:  
 * ~~fix formatting~~
 * add list ordered by popularity
+* table of contents
 ---
 
 
