@@ -15,6 +15,7 @@ Copy plugin directory to _py_ directory that lives alongside CudaText executable
 TODO:  
 * ~~fix formatting~~
 * add list ordered by popularity
+* table of contents
 ---
 
 
@@ -23,6 +24,8 @@ TODO:
 output = "README.md"
 add_readmes = False
 categories = True
+add_medal = True # for top 40
+add_table_of_content = True
  
  
 def main():
@@ -32,6 +35,9 @@ def main():
     zipsdir = input('Enter folder where plugin zips lie: ')
     
   zipnames = sorted(os.listdir(zipsdir))
+  
+  if add_medal:
+    topzips = get_top(40) # zip names of top plugins
   
   res = []
   
@@ -63,19 +69,33 @@ def main():
         folder,filename = os.path.split(zippath)
         name,ext = os.path.spliext(filename)
       
-      res.append(format(name, descr, readmetxt, git))
+      medaled = add_medal and zipname in topzips
+      
+      res.append(format(name, descr, readmetxt, git, medaled=medaled))
       
       efs += 1
   print(f'efs:{efs}')
   
+  table_of_contants = ''
   if categories:
     res = categorize(res)
+    
+    if add_table_of_content:
+      with open('tags.json', 'r', encoding='utf-8') as f:
+        tags = json.load(f)
+      for tag in tags:
+        if tag == '?': continue 
+        table_of_contants += f'* [{tag}](#{tag.lower().replace(" ", "_").replace("-", "").replace("/", "")})  \n'    
+      table_of_contants += '\n  \n---\n'
   
-  utf2file(PRE + '\n   \n   \n'.join(res), output)
+  
+  utf2file(PRE + table_of_contants + '\n   \n   \n'.join(res), output)
       
       
-def format(name, descr, readme, git):
+def format(name, descr, readme, git, medaled):
   res = f'* [{name}]({git})' # depends_A
+  if medaled:
+    res += f' [🥇](a "Top Downloaded")'
   if descr:
     res += f' - {descr}  '
   if add_readmes  and  readme:
@@ -130,7 +150,15 @@ def categorize(l):
   return result
 
     
+def get_top(count):
+  # file is copied from sourceforge plugin lists: downloads last week
+  with open('plugins_dls_week.csv', 'r', encoding='utf-8') as f:
+    lines = [line.strip() for line in f.readlines() if line.strip()]
+    
+  nth_dls = sorted([int(line.split()[-1]) for line in lines])[-count]  # extract last column - dls and sort
 
+  topNthZips = set(line.split()[0] for line in lines  if int(line.split()[-1]) >= nth_dls)  # zip names of top
+  return topNthZips
   
   
 def utf2file(ustr, filepath):

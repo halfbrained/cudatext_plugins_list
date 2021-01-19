@@ -64,7 +64,7 @@
     "Vim Mode"
   ],
   
-  "Language/Filetype":[
+  "Lexer-Specific":[
     "AutoIt Helper",
     "CSS CanIUse",
     "CSS Inspector",

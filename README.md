@@ -11,28 +11,38 @@ TODO:
 ---
 
 
+* [Major](#major)  
+* [Misc](#misc)  
+* [Lexer-Specific](#lexerspecific)  
+* [Editor Config](#editor_config)  
+* [Extra](#extra)  
+* [System](#system)  
+* [Plugin/Dev](#plugindev)  
+
+  
+---
 * ## Major
    
    
-    * [Complete From Text](https://github.com/CudaText-addons/cuda_complete_from_text) - Handles auto-completion command (Ctrl+Space) and gives list of words from the current document (or all documents, by option), starting from the currently typed word.      
+    * [Complete From Text](https://github.com/CudaText-addons/cuda_complete_from_text) [🥇](a "Top Downloaded") - Handles auto-completion command (Ctrl+Space) and gives list of words from the current document (or all documents, by option), starting from the currently typed word.      
    
    
-    * [CudaExt](https://github.com/kvichans/cuda_ext) - Additional commands for CudaText in Commands dialog and Plugins menu      
+    * [CudaExt](https://github.com/kvichans/cuda_ext) [🥇](a "Top Downloaded") - Additional commands for CudaText in Commands dialog and Plugins menu      
    
    
     * [CudaExt_py35](https://github.com/kvichans/cuda_ext) - Additional commands for CudaText in Commands dialog and Plugins menu (Python 3.5)      
    
    
-    * [CudaLint](https://github.com/CudaText-addons/cuda_lint) - Linting (syntax-checking) of source code. Needs "linters" for each lexer you want to check. See useful help in readme folder.      
+    * [CudaLint](https://github.com/CudaText-addons/cuda_lint) [🥇](a "Top Downloaded") - Linting (syntax-checking) of source code. Needs "linters" for each lexer you want to check. See useful help in readme folder.      
    
    
-    * [DevDocs](https://github.com/CudaText-addons/cuda_devdocs) - Performs search on DevDocs site      
+    * [DevDocs](https://github.com/CudaText-addons/cuda_devdocs) [🥇](a "Top Downloaded") - Performs search on DevDocs site      
    
    
-    * [Differ](https://github.com/OlehL/cuda_differ) - Plugin to compare two files and show compare results side by side      
+    * [Differ](https://github.com/OlehL/cuda_differ) [🥇](a "Top Downloaded") - Plugin to compare two files and show compare results side by side      
    
    
-    * [ExtTools](https://github.com/kvichans/cuda_exttools) - Adds support for calling external programs in CudaText      
+    * [ExtTools](https://github.com/kvichans/cuda_exttools) [🥇](a "Top Downloaded") - Adds support for calling external programs in CudaText      
    
    
     * [Favorites](https://github.com/kvichans/cuda_favorites) - Manages "favorites": list of user-selected file names, to quickly open them      
@@ -41,43 +51,43 @@ TODO:
     * [Find in Files](https://github.com/kvichans/cuda_find_in_files) - Gives dialog to search for multiple files containing some string/regex, like in file managers.      
    
    
-    * [Find in Files 4](https://github.com/kvichans/cuda_find_in_files4) - Gives dialog to search for multiple files containing some string/regex, like in file managers.      
+    * [Find in Files 4](https://github.com/kvichans/cuda_find_in_files4) [🥇](a "Top Downloaded") - Gives dialog to search for multiple files containing some string/regex, like in file managers.      
    
    
-    * [Find in Files 4](https://github.com/kvichans/cuda_find_in_files4) - Gives dialog to search for multiple files containing some string/regex, like in file managers.      
+    * [Find in Files 4](https://github.com/kvichans/cuda_find_in_files4) [🥇](a "Top Downloaded") - Gives dialog to search for multiple files containing some string/regex, like in file managers.      
    
    
-    * [Highlight Occurrences](https://github.com/CudaText-addons/cuda_hilite_occurrences) - Highlights/Marks all occurrences of current/selected word/fragment      
+    * [Highlight Occurrences](https://github.com/CudaText-addons/cuda_hilite_occurrences) [🥇](a "Top Downloaded") - Highlights/Marks all occurrences of current/selected word/fragment      
    
    
     * [In-text complete](https://github.com/kvichans/cuda_intext_complete) - Suggests completions for syntax expressions, using fragments from the entire text      
    
    
-    * [Macros](https://github.com/kvichans/cuda_macros) - Macros manager for CudaText. Gives commands to record/playback/save/delete/etc macros.      
+    * [Macros](https://github.com/kvichans/cuda_macros) [🥇](a "Top Downloaded") - Macros manager for CudaText. Gives commands to record/playback/save/delete/etc macros.      
    
    
-    * [Snippets](https://github.com/CudaText-addons/cuda_snippets) - Snippets engine, described in CudaText wiki. Snippets are expanded by Tab-key or can be called from menu.      
+    * [Snippets](https://github.com/CudaText-addons/cuda_snippets) [🥇](a "Top Downloaded") - Snippets engine, described in CudaText wiki. Snippets are expanded by Tab-key or can be called from menu.      
    
    
-    * [Sync Editing](https://github.com/viad00/cuda_sync_editing) - Syncronized Editing like in SynWrite editor. Select block, activate plugin, and then you can rename equal identifiers in this block, by editing one identifier.      
+    * [Sync Editing](https://github.com/viad00/cuda_sync_editing) [🥇](a "Top Downloaded") - Syncronized Editing like in SynWrite editor. Select block, activate plugin, and then you can rename equal identifiers in this block, by editing one identifier.      
    
    
-    * [Terminal](https://github.com/Artem3213212/cuda_terminal) - Gives "Terminal" panel in the bottom panel of CudaText      
+    * [Terminal](https://github.com/Artem3213212/cuda_terminal) [🥇](a "Top Downloaded") - Gives "Terminal" panel in the bottom panel of CudaText      
    
    
 * ## Misc
    
    
-    * [Auto Center Line](https://github.com/CudaText-addons/cuda_auto_center_line) - Plugin keeps current line in the center of the editor window      
+    * [Auto Center Line](https://github.com/CudaText-addons/cuda_auto_center_line) [🥇](a "Top Downloaded") - Plugin keeps current line in the center of the editor window      
    
    
-    * [Auto-Copy to Clipboard](https://github.com/CudaText-addons/cuda_auto_copy) - When text block selected, it's auto copied to clipboard, no need to press Ctrl+C (or call menu item). Don't work with multi-carets. Don't work for huge blocks (>50K).      
+    * [Auto-Copy to Clipboard](https://github.com/CudaText-addons/cuda_auto_copy) [🥇](a "Top Downloaded") - When text block selected, it's auto copied to clipboard, no need to press Ctrl+C (or call menu item). Don't work with multi-carets. Don't work for huge blocks (>50K).      
    
    
-    * [Auto Replace](https://github.com/iRamSoft/cuda_auto_replace) - Plugin auto-replaces currently typed words, based on set of snippets with such words.      
+    * [Auto Replace](https://github.com/iRamSoft/cuda_auto_replace) [🥇](a "Top Downloaded") - Plugin auto-replaces currently typed words, based on set of snippets with such words.      
    
    
-    * [Auto Save](https://github.com/CudaText-addons/cuda_auto_save) - Saves modified files automatically: before file closing (by option, default is off), by timer (default interval 30sec), on application deactivation      
+    * [Auto Save](https://github.com/CudaText-addons/cuda_auto_save) [🥇](a "Top Downloaded") - Saves modified files automatically: before file closing (by option, default is off), by timer (default interval 30sec), on application deactivation      
    
    
     * [Backup File](https://github.com/kvichans/cuda_backup_file) - Creates backup copy of current file, a) by command in Plugins, b) auto-creation before file saving      
@@ -92,34 +102,34 @@ TODO:
     * [Case Converter](https://github.com/CudaText-addons/cuda_case_converter) - Converts identifiers between several cases (snake_case, camelCase, PascalCase etc)      
    
    
-    * [Color Picker](https://github.com/CudaText-addons/cuda_color_picker) - Shows color-picker dialog, inserts color #rrggbb      
+    * [Color Picker](https://github.com/CudaText-addons/cuda_color_picker) [🥇](a "Top Downloaded") - Shows color-picker dialog, inserts color #rrggbb      
    
    
-    * [Color Text](https://github.com/iRamSoft/cuda_color_text/) - Allows to colorize text fragments, like function "Style token" in Notepad++      
+    * [Color Text](https://github.com/iRamSoft/cuda_color_text/) [🥇](a "Top Downloaded") - Allows to colorize text fragments, like function "Style token" in Notepad++      
    
    
-    * [Colored Indent](https://github.com/CudaText-addons/cuda_colored_indent) - Colorizes spaces/tabs in indents      
+    * [Colored Indent](https://github.com/CudaText-addons/cuda_colored_indent) [🥇](a "Top Downloaded") - Colorizes spaces/tabs in indents      
    
    
     * [Column Marks](https://github.com/CudaText-addons/cuda_column_marks) - Commands to work with additional margins (options "margin", "margin_string")      
    
    
-    * [CudaFormatter](https://github.com/CudaText-addons/cuda_fmt) - Framework to use code formatters as 2nd-level plugins      
+    * [CudaFormatter](https://github.com/CudaText-addons/cuda_fmt) [🥇](a "Top Downloaded") - Framework to use code formatters as 2nd-level plugins      
    
    
-    * [Detect Indent](https://github.com/CudaText-addons/cuda_detect_indent) - Detects indentation (spaces or tabs, tab size) for opened files      
+    * [Detect Indent](https://github.com/CudaText-addons/cuda_detect_indent) [🥇](a "Top Downloaded") - Detects indentation (spaces or tabs, tab size) for opened files      
    
    
-    * [EditorConfig Support](https://github.com/CudaText-addons/cuda_editorconfig) - Supports EditorConfig system      
+    * [EditorConfig Support](https://github.com/CudaText-addons/cuda_editorconfig) [🥇](a "Top Downloaded") - Supports EditorConfig system      
    
    
     * [Edits Navigation](https://github.com/halfbrained/cuda_edits_navigation) - Return to previously edited lines      
    
    
-    * [Encode](https://github.com/cudatext-addons/cuda_encode) - Allows to encode text using many transformations (Base64, URL escape, HTML/XML escape, Hash, etc)      
+    * [Encode](https://github.com/cudatext-addons/cuda_encode) [🥇](a "Top Downloaded") - Allows to encode text using many transformations (Base64, URL escape, HTML/XML escape, Hash, etc)      
    
    
-    * [Extended Selection](https://github.com/halfbrained/cuda_extended_selection) - Extend double/triple-click selection while holding Shift      
+    * [Extended Selection](https://github.com/halfbrained/cuda_extended_selection) [🥇](a "Top Downloaded") - Extend double/triple-click selection while holding Shift      
    
    
     * [Extract Strings](https://github.com/CudaText-addons/cuda_extract_strings) - Shows dialog to enter RegEx, this RegEx will find list of strings. You can choose what to do with these strings: copy to clipboard, copy to new tab. Also includes Filter Lines command to find lines.      
@@ -137,10 +147,10 @@ TODO:
     * [Git Status](https://github.com/CudaText-addons/cuda_git_status) - Shows Git information in statusbar: current branch name, clean state, etc.      
    
    
-    * [Hash Generator](https://github.com/CudaText-addons/cuda_hash_gen) - Dialog which allows to calculate hash sums (several algorithms) for files/strings      
+    * [Hash Generator](https://github.com/CudaText-addons/cuda_hash_gen) [🥇](a "Top Downloaded") - Dialog which allows to calculate hash sums (several algorithms) for files/strings      
    
    
-    * [Hex Dump](https://github.com/CudaText-addons/cuda_hex_dump) - Shows text in hex-dump format      
+    * [Hex Dump](https://github.com/CudaText-addons/cuda_hex_dump) [🥇](a "Top Downloaded") - Shows text in hex-dump format      
    
    
     * [Highlight Variables](https://github.com/CudaText-addons/cuda_hilite_vars) - Highlights "variables" inside strings literals (for Bash lexer, etc)      
@@ -158,13 +168,13 @@ TODO:
     * [Micro Utils](https://github.com/CudaText-addons/cuda_micro_utils) - Minor commands to work with bin/hex numbers, etc      
    
    
-    * [Numbered Bookmarks](https://github.com/CudaText-addons/cuda_numbered_bookmarks) - Allows to set and go to numbered bookmarks (1..8)      
+    * [Numbered Bookmarks](https://github.com/CudaText-addons/cuda_numbered_bookmarks) [🥇](a "Top Downloaded") - Allows to set and go to numbered bookmarks (1..8)      
    
    
-    * [Online Search](http://github.com/cudatext-addons/cuda_online_search) - Opens webbrowser with search for selection/word, supports several search engines      
+    * [Online Search](http://github.com/cudatext-addons/cuda_online_search) [🥇](a "Top Downloaded") - Opens webbrowser with search for selection/word, supports several search engines      
    
    
-    * [Open URL](https://github.com/CudaText-addons/cuda_open_url) - Gives commands to open URL (under text caret) in many browsers      
+    * [Open URL](https://github.com/CudaText-addons/cuda_open_url) [🥇](a "Top Downloaded") - Gives commands to open URL (under text caret) in many browsers      
    
    
     * [Paste as String](https://github.com/CudaText-addons/cuda_paste_as_string) - Pastes text from Clipboard as "string" for current lexer      
@@ -176,31 +186,31 @@ TODO:
     * [SnipToCall](https://github.com/kvichans/cuda_snip_to_call) - Allows to use snippet-strings to call any commands (internal or plugins). Can be configured also from "Configure Hotkeys" plugin.      
    
    
-    * [Spell Checker](https://github.com/CudaText-addons/cuda_spell_checker) - Spell checker, based on Hunspell dictionaries. Shows red underlines for misspelled words, gives suggestions dialog.      
+    * [Spell Checker](https://github.com/CudaText-addons/cuda_spell_checker) [🥇](a "Top Downloaded") - Spell checker, based on Hunspell dictionaries. Shows red underlines for misspelled words, gives suggestions dialog.      
    
    
-    * [Sync Scroll](https://github.com/Artem3213212/cuda_sync_scroll) - Synchronizes vertical and/or horizontal scrolling of editors in groups 1 and 2      
+    * [Sync Scroll](https://github.com/Artem3213212/cuda_sync_scroll) [🥇](a "Top Downloaded") - Synchronizes vertical and/or horizontal scrolling of editors in groups 1 and 2      
    
    
     * [TextToSpeech](https://github.com/CudaText-addons/cuda_texttospeech) - Speak text using Windows Speech API      
    
    
-    * [Tab Colors](https://github.com/CudaText-addons/cuda_tab_colors) - Allows to colorize tab headers per lexer, or per file extension      
+    * [Tab Colors](https://github.com/CudaText-addons/cuda_tab_colors) [🥇](a "Top Downloaded") - Allows to colorize tab headers per lexer, or per file extension      
    
    
-    * [Tab Icons](https://github.com/CudaText-addons/cuda_tab_icons) - Shows file-type icons on tab headers (same icons, which Project Manager shows)      
+    * [Tab Icons](https://github.com/CudaText-addons/cuda_tab_icons) [🥇](a "Top Downloaded") - Shows file-type icons on tab headers (same icons, which Project Manager shows)      
    
    
-    * [Vim Mode](https://github.com/CudaText-addons/cuda_vim_mode) - Allows to use Vim key bindings      
+    * [Vim Mode](https://github.com/CudaText-addons/cuda_vim_mode) [🥇](a "Top Downloaded") - Allows to use Vim key bindings      
    
    
-* ## Language/Filetype
+* ## Lexer-Specific
    
    
     * [AutoIt Helper](https://github.com/OlehL/cuda_autoit_helper) - Autocompletion and function hints for AutoIt Lexer      
    
    
-    * [CSS CanIUse](https://github.com/CudaText-addons/cuda_css_caniuse) - For CSS files, shows info about selected word from CanIUse.com site      
+    * [CSS CanIUse](https://github.com/CudaText-addons/cuda_css_caniuse) [🥇](a "Top Downloaded") - For CSS files, shows info about selected word from CanIUse.com site      
    
    
     * [CSS Inspector](https://github.com/cudatext-addons/cuda_css_inspector) - Plugin shows in HTML document CSS properties of current tag      
@@ -215,10 +225,10 @@ TODO:
     * [FontStorage](https://github.com/CudaText-addons/cuda_webfont) - In CSS code, inserts usage of external fonts from FontStorage.com site      
    
    
-    * [CSV Helper](https://github.com/Artem3213212/cuda_csv_hilite) - Highlights columns in CSV and TSV files with different colors. Gives several commands to manage columns. Requires "CSV" and "TSV" lite lexers installed.      
+    * [CSV Helper](https://github.com/Artem3213212/cuda_csv_hilite) [🥇](a "Top Downloaded") - Highlights columns in CSV and TSV files with different colors. Gives several commands to manage columns. Requires "CSV" and "TSV" lite lexers installed.      
    
    
-    * [DocBlock](https://github.com/CudaText-addons/cuda_docblock_comments) - Helps to type DocBlock comments, for JS/PHP lexers      
+    * [DocBlock](https://github.com/CudaText-addons/cuda_docblock_comments) [🥇](a "Top Downloaded") - Helps to type DocBlock comments, for JS/PHP lexers      
    
    
     * [Emmet Lite](https://github.com/CudaText-addons/cuda_emmet_lite) - Emmet engine, see www.emmet.io      
@@ -236,10 +246,10 @@ TODO:
     * [HTML Ops](https://github.com/cudatext-addons/cuda_html_ops) - Commands to work with HTML/CSS      
    
    
-    * [HTML Tooltips](https://github.com/CudaText-addons/cuda_html_tooltips) - In HTML/CSS files, plugin shows tooltips for: HTML color values, HTML entities, picture filenames      
+    * [HTML Tooltips](https://github.com/CudaText-addons/cuda_html_tooltips) [🥇](a "Top Downloaded") - In HTML/CSS files, plugin shows tooltips for: HTML color values, HTML entities, picture filenames      
    
    
-    * [HTML Tidy](https://github.com/CudaText-addons/cuda_html_tidy) - Validates HTML documents using Tidy tool      
+    * [HTML Tidy](https://github.com/CudaText-addons/cuda_html_tidy) [🥇](a "Top Downloaded") - Validates HTML documents using Tidy tool      
    
    
     * [JS Multiline Array](https://github.com/CudaText-addons/cuda_js_multiline_array) - Converts several selected lines of text - to JavaScript string array      
@@ -248,10 +258,10 @@ TODO:
     * [JS Tern](https://github.com/pohmelie/cuda_tern) - Gives intelligence commands for JavaScript: 1) auto-complete (Ctrl+Space), 2) go-to-definition (item in context menu), 3) show function call-tip, 4) show doc-string, 5) show usages. Based on Tern engine, requires Node.js.      
    
    
-    * [Markdown Editing](https://github.com/CudaText-addons/cuda_markdown_editing) - Helpers for editing Markdown documents      
+    * [Markdown Editing](https://github.com/CudaText-addons/cuda_markdown_editing) [🥇](a "Top Downloaded") - Helpers for editing Markdown documents      
    
    
-    * [Markdown Preview](https://github.com/CudaText-addons/cuda_markdown_preview) - Previews Markdown text as HTML page in browser      
+    * [Markdown Preview](https://github.com/CudaText-addons/cuda_markdown_preview) [🥇](a "Top Downloaded") - Previews Markdown text as HTML page in browser      
    
    
     * [Pandoc Helper](https://github.com/CudaText-addons/cuda_pandoc) - Uses Pandoc tool, to convert several markup formats to output formats, which Pandoc supports (Word, PDF, Markdown etc)      
@@ -260,7 +270,7 @@ TODO:
     * [Configure PyCodeStyle linter](https://github.com/kvichans/cuda_config_pep8) - Shows dialog to configure PyCodeStyle linter, and save its config      
    
    
-    * [Python IntelliSense](https://github.com/CudaText-addons/cuda_python_intel) - Supports intelligence commands for Python: 1) auto-completion (Ctrl+Space), 2) goto-definition (item in context menu), 3) show function call-tip (Ctrl+Shift+Space), 4) show function doc-string, 5) show usages of name. Based on Jedi library.      
+    * [Python IntelliSense](https://github.com/CudaText-addons/cuda_python_intel) [🥇](a "Top Downloaded") - Supports intelligence commands for Python: 1) auto-completion (Ctrl+Space), 2) goto-definition (item in context menu), 3) show function call-tip (Ctrl+Shift+Space), 4) show function doc-string, 5) show usages of name. Based on Jedi library.      
    
    
     * [SPIR Helper](https://github.com/Artem3213212/cuda_spir_helper) - Auto-completion for SPIR lexer      
@@ -278,7 +288,7 @@ TODO:
 * ## Editor Config
    
    
-    * [Config Toolbar](https://github.com/CudaText-addons/cuda_config_toolbar) - Configures main toolbar in CudaText: icon-set and buttons      
+    * [Config Toolbar](https://github.com/CudaText-addons/cuda_config_toolbar) [🥇](a "Top Downloaded") - Configures main toolbar in CudaText: icon-set and buttons      
    
    
     * [Configure Hotkeys](https://github.com/kvichans/cuda_config_keys) - Shows dialog to view/set hotkeys in editor      
@@ -296,7 +306,7 @@ TODO:
     * [ASCII Art](https://github.com/CudaText-addons/cuda_ascii_art) - Inserts text formatted via ASCII art font (using PyFiglet)      
    
    
-    * [Draw Lines](https://github.com/CudaText-addons/cuda_draw_lines) - Draws pseudo-graphic frames in text, by Shift+arrows      
+    * [Draw Lines](https://github.com/CudaText-addons/cuda_draw_lines) [🥇](a "Top Downloaded") - Draws pseudo-graphic frames in text, by Shift+arrows      
    
    
     * [Insert Emoji](https://github.com/CudaText-addons/cuda_insert_emoji) - Dialog with list of most common emojis (about 900), to insert emoji name like :smile:      
@@ -305,7 +315,7 @@ TODO:
     * [Lorem Ipsum](https://github.com/CudaText-addons/cuda_lorem_ipsum) - Inserts "Lorem Ipsum" text (placeholder for HTML pages)      
    
    
-    * [Number Utils](https://github.com/CudaText-addons/cuda_number_utils) - Commands for numbers: insert row of numbers, convert to text or Romans, etc.      
+    * [Number Utils](https://github.com/CudaText-addons/cuda_number_utils) [🥇](a "Top Downloaded") - Commands for numbers: insert row of numbers, convert to text or Romans, etc.      
    
    
     * [Options Report](https://github.com/kvichans/cuda_opts_report) - Shows HTML page with report of options      
@@ -323,7 +333,7 @@ TODO:
     * [Switch Header](https://github.com/CudaText-addons/cuda_switch_header) - Switches file pairs: c<>h, cpp<>h, cc<>h, asm<>inc      
    
    
-    * [Text Statistics](https://github.com/CudaText-addons/cuda_text_statistics) - Shows for current text: count of lines, words, letters, all chars      
+    * [Text Statistics](https://github.com/CudaText-addons/cuda_text_statistics) [🥇](a "Top Downloaded") - Shows for current text: count of lines, words, letters, all chars      
    
    
     * [Sum Lines](https://github.com/CudaText-addons/cuda_sum_lines) - Calculates sum/min/max/avg of numbers in selected lines      
@@ -335,7 +345,7 @@ TODO:
     * [Explorer Integration](https://github.com/CudaText-addons/cuda_explorer_integration) - For Windows: allows to add/remove Explorer context menu item for CudaText, to associate CudaText with file-extensions .txt .ini .cuda-proj .cuda-session.      
    
    
-    * [FTP](https://github.com/pohmelie/cuda_ftp) - Allows to handle remote files/folders on FTP+SFTP servers. Read text file about SFTP support.      
+    * [FTP](https://github.com/pohmelie/cuda_ftp) [🥇](a "Top Downloaded") - Allows to handle remote files/folders on FTP+SFTP servers. Read text file about SFTP support.      
    
    
     * [Fonts](https://github.com/CudaText-addons/cuda_fonts) - Allows to use portable fonts only in CudaText. Fonts are loaded from CudaText data/fonts folder.      
