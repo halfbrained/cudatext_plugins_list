@@ -15,15 +15,15 @@ PRE = """# CudaText Plugins List (WIP)
       * Linux, *BSD, Solaris: in <code>~/.config/cudatext</code>, or <code>$XDG_CONFIG_HOME/cudatext</code> if this OS variable is set
       * macOS: in <code>~/Library/Application Support/CudaText</code>
 </details>  
-  
+
+"""
+TODO_TEXT = """
   
 TODO:  
 * ~~fix formatting~~
 * ~~add list ordered by popularity~~ (Medals on top plugins instead)
 * ~~table of contents~~
 ---
-
-
 """
 
 output = "README.md"
@@ -32,8 +32,13 @@ categories = True
 add_medal = True # for top 40
 add_table_of_content = True
 
+add_todo = False
+
 
 toskip = set()
+
+if add_todo:
+  PRE += TODO_TEXT
  
  
 def main():
@@ -44,7 +49,7 @@ def main():
     
   zipnames = sorted(os.listdir(zipsdir))
   
-  load_toskip()
+  load_toskip() # fills toskip
   
   if add_medal:
     topzips = get_top(40) # zip names of top plugins
@@ -115,6 +120,7 @@ def format(name, descr, readme, git, medaled):
   if add_readmes  and  readme:
     readme = '    '+readme.replace('\n', '\n    ')+'    ' # markdown demands indentation
     res += f'\n    <details><summary>readme</summary>\n    \n    ```  \n    {readme}    \n    ```  \n    </details>\n    '
+    
   return res
       
 
@@ -154,6 +160,8 @@ def categorize(l):
         if tofind in tmpitem:
           item = tmpitem
           tag_present = True
+          
+          l.remove(item) # fix for plugins with same name (FIF4)
           break
       else:
         if name not in toskip:

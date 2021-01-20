@@ -7,14 +7,6 @@
       * Linux, *BSD, Solaris: in <code>~/.config/cudatext</code>, or <code>$XDG_CONFIG_HOME/cudatext</code> if this OS variable is set
       * macOS: in <code>~/Library/Application Support/CudaText</code>
 </details>  
-  
-  
-TODO:  
-* ~~fix formatting~~
-* ~~add list ordered by popularity~~ (Medals on top plugins instead)
-* ~~table of contents~~
----
-
 
 * [Major](#major)  
 * [Misc](#misc)  
@@ -58,7 +50,7 @@ TODO:
     * [Find in Files 4](https://github.com/kvichans/cuda_find_in_files4) [🥇](a "Top Downloaded") - Gives dialog to search for multiple files containing some string/regex, like in file managers.      
    
    
-    * [Find in Files 4](https://github.com/kvichans/cuda_find_in_files4) [🥇](a "Top Downloaded") - Gives dialog to search for multiple files containing some string/regex, like in file managers.      
+    * [Find in Files 4](https://github.com/kvichans/cuda_find_in_files4) - Gives dialog to search for multiple files (Python 3.5)      
    
    
     * [Highlight Occurrences](https://github.com/CudaText-addons/cuda_hilite_occurrences) [🥇](a "Top Downloaded") - Highlights/Marks all occurrences of current/selected word/fragment      
