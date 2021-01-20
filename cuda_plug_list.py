@@ -12,8 +12,8 @@ PRE = """# CudaText Plugins List (WIP)
   
   * on portable version - alongside CudaText executable.      
   * on non-portable:
-      * Linux, *BSD, Solaris: in ~/.config/cudatext, or $XDG_CONFIG_HOME/cudatext if this OS variable is set
-      * macOS: in ~/Library/Application Support/CudaText
+      * Linux, *BSD, Solaris: in <code>~/.config/cudatext</code>, or <code>$XDG_CONFIG_HOME/cudatext</code> if this OS variable is set
+      * macOS: in <code>~/Library/Application Support/CudaText</code>
 </details>  
   
   
@@ -97,6 +97,7 @@ def main():
       with open('tags.json', 'r', encoding='utf-8') as f:
         tags = json.load(f)
       for tag in tags:
+        if tag == 'Plugin/Dev': continue # empty category
         if tag == '?': continue 
         table_of_contants += f'* [{tag}](#{tag.lower().replace(" ", "-").replace("/", "")})  \n'    
       table_of_contants += '\n  \n---\n'
@@ -144,6 +145,7 @@ def categorize(l):
   for tag,names in tags.items(): # dict preserves order since python3.7
     result.append(f'* ## {tag}')
     
+    tag_present = False
     for name in names:
       tofind = f'* [{name}](' # depends_A
       # find plugin item
@@ -151,6 +153,7 @@ def categorize(l):
       for tmpitem in l:
         if tofind in tmpitem:
           item = tmpitem
+          tag_present = True
           break
       else:
         if name not in toskip:
@@ -160,7 +163,10 @@ def categorize(l):
       # list subitems indetation
       item = '    '+item.replace('\n', '\n    ')+'    '
       result.append(item)
-      
+    
+    if not tag_present:
+      del result[-1]
+    
   return result
 
     

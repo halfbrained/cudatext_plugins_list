@@ -4,8 +4,8 @@
   
   * on portable version - alongside CudaText executable.      
   * on non-portable:
-      * Linux, *BSD, Solaris: in ~/.config/cudatext, or $XDG_CONFIG_HOME/cudatext if this OS variable is set
-      * macOS: in ~/Library/Application Support/CudaText
+      * Linux, *BSD, Solaris: in <code>~/.config/cudatext</code>, or <code>$XDG_CONFIG_HOME/cudatext</code> if this OS variable is set
+      * macOS: in <code>~/Library/Application Support/CudaText</code>
 </details>  
   
   
@@ -22,7 +22,6 @@ TODO:
 * [Editor Config](#editor-config)  
 * [Extra](#extra)  
 * [System](#system)  
-* [Plugin/Dev](#plugindev)  
 
   
 ---
@@ -369,9 +368,6 @@ TODO:
    
    
     * [pywin32 libraries](https://github.com/CudaText-addons/cuda_pywin32)    
-   
-   
-* ## Plugin/Dev
    
    
 * ## ?
