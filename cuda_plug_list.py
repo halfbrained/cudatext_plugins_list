@@ -8,14 +8,19 @@ import json
  
 PRE = """# CudaText Plugins List (WIP)
 <details><summary>How to install</summary>  
-Copy plugin directory to _py_ directory that lives alongside CudaText executable.  
+  Copy plugin directory to <code>py</code> directory that lives:
+  
+  * on portable version - alongside CudaText executable.      
+  * on non-portable:
+      * Linux, *BSD, Solaris: in ~/.config/cudatext, or $XDG_CONFIG_HOME/cudatext if this OS variable is set
+      * macOS: in ~/Library/Application Support/CudaText
 </details>  
   
   
 TODO:  
 * ~~fix formatting~~
-* add list ordered by popularity
-* table of contents
+* ~~add list ordered by popularity~~ (Medals on top plugins instead)
+* ~~table of contents~~
 ---
 
 
@@ -26,6 +31,9 @@ add_readmes = False
 categories = True
 add_medal = True # for top 40
 add_table_of_content = True
+
+
+toskip = set()
  
  
 def main():
@@ -35,6 +43,8 @@ def main():
     zipsdir = input('Enter folder where plugin zips lie: ')
     
   zipnames = sorted(os.listdir(zipsdir))
+  
+  load_toskip()
   
   if add_medal:
     topzips = get_top(40) # zip names of top plugins
@@ -54,6 +64,9 @@ def main():
       try:
         # clip to avoid configparser error
         name,descr = get_name_descr('\n'.join(inf.split('\n')[:10]))
+        
+        if name in toskip:
+          continue
       except Exception as ex:
         print(f'error:{os.path.split(zippath)[1]} ({ex})')
         continue
@@ -85,7 +98,7 @@ def main():
         tags = json.load(f)
       for tag in tags:
         if tag == '?': continue 
-        table_of_contants += f'* [{tag}](#{tag.lower().replace(" ", "_").replace("-", "").replace("/", "")})  \n'    
+        table_of_contants += f'* [{tag}](#{tag.lower().replace(" ", "-").replace("/", "")})  \n'    
       table_of_contants += '\n  \n---\n'
   
   
@@ -140,7 +153,8 @@ def categorize(l):
           item = tmpitem
           break
       else:
-        print(f'~ Couldnt find item in formatteds: <{tag}>.<{name}>')
+        if name not in toskip:
+          print(f'~ Couldnt find item in formatteds: <{tag}>.<{name}>')
         continue
       
       # list subitems indetation
@@ -159,6 +173,14 @@ def get_top(count):
 
   topNthZips = set(line.split()[0] for line in lines  if int(line.split()[-1]) >= nth_dls)  # zip names of top
   return topNthZips
+  
+  
+def load_toskip():
+  global toskip
+  
+  with open('plugins_to_skip.txt', 'r', encoding='utf-8') as f:
+    lines = set(line.strip() for line in f.readlines()  if line.strip())
+  toskip = lines
   
   
 def utf2file(ustr, filepath):

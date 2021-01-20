@@ -1,20 +1,25 @@
 # CudaText Plugins List (WIP)
 <details><summary>How to install</summary>  
-Copy plugin directory to _py_ directory that lives alongside CudaText executable.  
+  Copy plugin directory to <code>py</code> directory that lives:
+  
+  * on portable version - alongside CudaText executable.      
+  * on non-portable:
+      * Linux, *BSD, Solaris: in ~/.config/cudatext, or $XDG_CONFIG_HOME/cudatext if this OS variable is set
+      * macOS: in ~/Library/Application Support/CudaText
 </details>  
   
   
 TODO:  
 * ~~fix formatting~~
-* add list ordered by popularity
-* table of contents
+* ~~add list ordered by popularity~~ (Medals on top plugins instead)
+* ~~table of contents~~
 ---
 
 
 * [Major](#major)  
 * [Misc](#misc)  
-* [Lexer-Specific](#lexerspecific)  
-* [Editor Config](#editor_config)  
+* [Lexer-Specific](#lexer-specific)  
+* [Editor Config](#editor-config)  
 * [Extra](#extra)  
 * [System](#system)  
 * [Plugin/Dev](#plugindev)  
@@ -367,21 +372,6 @@ TODO:
    
    
 * ## Plugin/Dev
-   
-   
-    * [Kvichans lib to use in any plugins](https://github.com/kvichans/cuda_kv_base) - Utilities for logging, i18n, storing plugin options/states and so on      
-   
-   
-    * [Kvichans lib with wrapper over dlg_proc and more dialog tools](https://github.com/kvichans/cuda_kv_dlg) - Helper library to work with CudaText plugin dialogs      
-   
-   
-    * [Testing of Code Tree API]() - Plugin tests filling Code Tree by API: for Markdown lexer, it fills Code Tree with some fake lines      
-   
-   
-    * [Testing of dialog API]() - Testing plugin of CudaText dialog API      
-   
-   
-    * [Testing of gaps API]() - Plugin to test CudaText Editor.gaps() API      
    
    
 * ## ?

@@ -1,0 +1,7 @@
+Testing of Code Tree API
+Testing of dialog API
+Testing of gaps API
+
+Kvichans lib to use in any plugins
+Kvichans lib with wrapper over dlg_proc and more dialog tools
+
